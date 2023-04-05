@@ -50,4 +50,4 @@ async def bothelp(ctx: commands.Context):
     await ctx.reply(data.helpText)
 
 
-bot.run(env_vars['TOKEN'])
+bot.run(env_vars['discord_access_token'])
