@@ -18,7 +18,6 @@ async def guessLyricsGame(ctx: commands.Context):
 class Question(discord.ui.View):
     def __init__(self, artistData, artist, album, song, wrongChoice1, wrongChoice2):
         super().__init__()
-        self.value = None
         self.artistData = artistData
         self.artist = artist
         self.album = album
@@ -33,28 +32,37 @@ class Question(discord.ui.View):
         # BUTTON ONE
         button_one = discord.ui.Button(label=self.artist, style=discord.ButtonStyle.primary)
         async def op1(interaction: discord.Interaction):
-            await interaction.response.send_message('Correct! ' + self.ans)
-            self.value = True
+            await interaction.response.send_message('**'+self.artist+'**  '+'Correct! ' + self.ans)
+            self.remove_item(button_hint)
+            self.remove_item(button_two)
+            self.remove_item(button_three)
+            button_one.disabled = True
+            await interaction.followup.edit_message(view=self, message_id=interaction.message.id)
             self.stop()
-
         button_one.callback = op1
 
         # BUTTON TWO
         button_two = discord.ui.Button(label=self.wrongChoice1, style=discord.ButtonStyle.primary)
         async def op2(interaction: discord.Interaction):
-            await interaction.response.send_message('Wrong! ' + self.ans)
-            self.value = False
+            await interaction.response.send_message('**'+self.wrongChoice1+'**  '+'Wrong! ' + self.ans)
+            self.remove_item(button_hint)
+            self.remove_item(button_two)
+            self.remove_item(button_three)
+            button_one.disabled = True
+            await interaction.followup.edit_message(view=self, message_id=interaction.message.id)
             self.stop()
-
         button_two.callback = op2
 
         # BUTTON THREE
         button_three = discord.ui.Button(label=self.wrongChoice2, style=discord.ButtonStyle.primary)
         async def op3(interaction: discord.Interaction):
-            await interaction.response.send_message('Wrong! ' + self.ans)
-            self.value = False
+            await interaction.response.send_message('**'+self.wrongChoice2+'**  '+'Wrong! ' + self.ans)
+            self.remove_item(button_hint)
+            self.remove_item(button_two)
+            self.remove_item(button_three)
+            button_one.disabled = True
+            await interaction.followup.edit_message(view=self, message_id=interaction.message.id)
             self.stop()
-
         button_three.callback = op3
 
         # add buttons in random order
@@ -80,3 +88,4 @@ class Question(discord.ui.View):
         
         button_hint.callback = hint
         self.add_item(button_hint)
+        
