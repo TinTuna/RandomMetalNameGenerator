@@ -48,6 +48,9 @@ async def lyrics(ctx: commands.Context):
 @bot.command()
 async def bothelp(ctx: commands.Context):
     await ctx.reply(data.helpText)
+# @bot.command()
+# async def test(ctx: commands.Context):
+#     await ctx.reply(ctx.message.author.mention)
 
 
 bot.run(env_vars['discord_access_token'])

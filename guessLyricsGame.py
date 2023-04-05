@@ -8,7 +8,7 @@ async def guessLyricsGame(ctx: commands.Context):
     # Get the artist and song and lyrics
     artistData, artist, album, song, lyrics, wrongChoice1, wrongChoice2 = await lyricsDB.getLyrics()
 
-    view = Question(artistData, artist, album, song, wrongChoice1, wrongChoice2)
+    view = Question(ctx, artistData, artist, album, song, wrongChoice1, wrongChoice2)
 
     await ctx.send('**Ok, tell me what band this is?**\n\n>>> '+lyrics, view=view)
     # Wait for the View to stop listening for input...
@@ -16,13 +16,22 @@ async def guessLyricsGame(ctx: commands.Context):
 
 
 class Question(discord.ui.View):
-    def __init__(self, artistData, artist, album, song, wrongChoice1, wrongChoice2):
+    def __init__(self, ctx, artistData, artist, album, song, wrongChoice1, wrongChoice2):
         super().__init__()
+        self.ctx = ctx
         self.artistData = artistData
         self.artist = artist
         self.album = album
         self.song = song
-        self.hints = ['The album title ' + album, 'The song title is ' + song, 'The album was from ' + artistData['albums'][album]['date']]
+        avgHint = 'The average score for the album was ' + str(artistData['albums'][album]['avgScore'])
+        author = str(ctx.message.author)
+        if author == 'TinTuna#2453' or author == 'Tinngles#8236' or author == 'Izual#1552':
+            avgHint += '\n' + ctx.message.author.mention + ' you scored it ' + str(artistData['albums'][album][author])
+        self.hints = ['The album title ' + album, 
+                      'The song title is ' + song, 
+                      'The album was from ' + artistData['albums'][album]['date'], 
+                      avgHint
+                      ]
         self.wrongChoice1 = wrongChoice1
         self.wrongChoice2 = wrongChoice2
         self.ans = 'It was ' + artist + ' with the song ' + song + ' from the album ' + album + ' from ' + artistData['albums'][album]['date'] + '.'
