@@ -1,4 +1,5 @@
 import discord
+from keep_alive import keep_alive
 from discord.ext import commands
 import randomGenreGenerator
 import randomPicker
@@ -52,5 +53,5 @@ async def bothelp(ctx: commands.Context):
 # async def test(ctx: commands.Context):
 #     await ctx.reply(ctx.message.author.mention)
 
-
+keep_alive()
 bot.run(env_vars['discord_access_token'])
