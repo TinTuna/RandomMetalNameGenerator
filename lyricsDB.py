@@ -33,5 +33,5 @@ async def getSong(artist, album):
     # Get the lyrics of the song
     lyrics = await useGeniusLyrics.getLyrics(artist, album, song, data[artist]['albums'][album]['songs'][song])
     if lyrics == None:
-        return getSong(artist, album)
+        return await getSong(artist, album)
     return song, lyrics
