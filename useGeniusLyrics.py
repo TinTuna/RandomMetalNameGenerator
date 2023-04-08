@@ -20,6 +20,9 @@ LyricsGenius = lyricsgenius.Genius(client_access_token)
 async def getLyrics(artist_name, album_name, song_name, song_id):
     # Get the lyrics of the song
     lyrics = LyricsGenius.lyrics(song_id)
+    # if no lyrics found, return
+    if lyrics is None or lyrics == '':
+        return
     # if lyrics ends with "You might also likeEmbed" remove it
     if lyrics.endswith('You might also likeEmbed'):
         lyrics = lyrics[:-24]
