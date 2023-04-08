@@ -1,4 +1,4 @@
-helpText = 'Metal Genre Generator Help\n\nNew random genre: !newGenre\nRandom picker: !picker [space delimited list]\nPicker: !picker [space delimited list]\nWho first: !whoFirst [space delimited list]\nBB3 Team Name: !BB3Team\nLyrics guessing game: !lyrics\nHelp: !bothelp'
+helpText = 'Metal Genre Generator Help\n\nNew random genre: !newGenre\nRandom picker: !picker [space delimited list]\nWho first: !whoFirst [space delimited list]\nBB3 Team Name: !BB3Team\nLyrics guessing game: !lyrics\nHelp: !bothelp'
 
 genreWords = {
     "nationality": [

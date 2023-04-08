@@ -26,7 +26,10 @@ class Question(discord.ui.View):
         avgHint = 'The average score for the album was ' + str(artistData['albums'][album]['avgScore'])
         author = str(ctx.message.author)
         if author == 'TinTuna#2453' or author == 'Tinngles#8236' or author == 'Izual#1552':
-            avgHint += '\n' + ctx.message.author.mention + ' you scored it ' + str(artistData['albums'][album][author])
+            if artistData['albums'][album][author] != '':
+                avgHint += '\n' + ctx.message.author.mention + ' you scored it ' + str(artistData['albums'][album][author])
+            else:
+                avgHint += '\n' + ctx.message.author.mention + ' you have not scored this album yet.'
         self.hints = ['The album title ' + album, 
                       'The song title is ' + song, 
                       'The album was from ' + artistData['albums'][album]['date'], 
