@@ -34,4 +34,9 @@ async def getSong(artist, album):
     lyrics = await useGeniusLyrics.getLyrics(artist, album, song, data[artist]['albums'][album]['songs'][song])
     if lyrics == None:
         return await getSong(artist, album)
+    # limit lyrics to 1000 characters
+    if len(lyrics) > 1000:
+        lyrics = lyrics[:1000]
+        lyrics = lyrics + '...\n\n'
+        lyrics = lyrics + '**Damn those lyrics are long! I\'m only showing you the first 1000 characters.**'
     return song, lyrics
