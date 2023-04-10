@@ -26,6 +26,9 @@ async def getLyrics(artist_name, album_name, song_name, song_id):
     # if lyrics ends with "You might also likeEmbed" remove it
     if lyrics.endswith('You might also likeEmbed'):
         lyrics = lyrics[:-24]
+    # if lyrics ends with "You might also like1" remove it
+    if lyrics.endswith('You might also like1'):
+        lyrics = lyrics[:-20]
     # if lyrics still ends in "Embed", remove it
     if lyrics.endswith('Embed'):
         lyrics = lyrics[:-5]

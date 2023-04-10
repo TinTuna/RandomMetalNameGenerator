@@ -1,6 +1,7 @@
 import lyricsgenius
 import json
 import getGoogleSheet
+import nanoid
 
 env_vars = {}
 with open('.env') as f:
@@ -14,12 +15,12 @@ client_access_token = env_vars['genius_access_token']
 
 LyricsGenius = lyricsgenius.Genius(client_access_token)
 
-# load data.json existing dict
-with open('data.json') as f:
+# load artist_data.json existing dict
+with open('artist_data.json') as f:
     data = json.load(f)
 
 
-def getIDs(artist_name, album_name, date,Izual,Tinngles,TinTuna,avgScore):
+def getIDs(artist_name, album_name, date, Izual, Tinngles, TinTuna, avgScore):
     artist = LyricsGenius.search_artist(artist_name, max_songs=0)
     # if no artist found, return
     if artist is None:
@@ -49,24 +50,39 @@ def getIDs(artist_name, album_name, date,Izual,Tinngles,TinTuna,avgScore):
     for track in album_tracks:
         data[artist.name]['albums'][album.name]['songs'][track['song']['title']] = track['song']['id']
 
-
-band_data = getGoogleSheet.main('2021')
-for band in band_data:
-    if band[0] == '':
-        continue
-    getIDs(band[0],band[1],band[2],band[3],band[4],band[5],band[6])
-
-band_data = getGoogleSheet.main('2022')
-for band in band_data:
-    if band[0] == '':
-        continue
-    getIDs(band[0],band[1],band[2],band[3],band[4],band[5],band[6])
-    
 band_data = getGoogleSheet.main('2023')
 for band in band_data:
+    # if the band name is blank, skip it
     if band[0] == '':
         continue
-    getIDs(band[0],band[1],band[2],band[3],band[4],band[5],band[6])
+    # if the band is already in the dict, skip it
+    if band[0] in data:
+        continue
+    # create the band in the dict
+    data[band[0]] = {}
+    data[band[0]]['id'] = nanoid.generate(size=10)
+    data[band[0]]['geniusArtist'] = False
+    data[band[0]]['albums'] = {}
+    data[band[0]]['albums'][band[1]] = {}
+    data[band[0]]['albums'][band[1]]['id'] = nanoid.generate(size=10)
+    data[band[0]]['albums'][band[1]]['date'] = band[2]
+    data[band[0]]['albums'][band[1]]['avgScore'] = band[6]
+    data[band[0]]['albums'][band[1]]['TinTuna#2453'] = band[5]
+    data[band[0]]['albums'][band[1]]['Tinngles#8236'] = band[4]
+    data[band[0]]['albums'][band[1]]['Izual#1552'] = band[3]
+    data[band[0]]['albums'][band[1]]['songs'] = {}
+
+# band_data = getGoogleSheet.main('2022')
+# for band in band_data:
+#     if band[0] == '':
+#         continue
+#     getIDs(band[0],band[1],band[2],band[3],band[4],band[5],band[6])
+    
+# band_data = getGoogleSheet.main('2023')
+# for band in band_data:
+#     if band[0] == '':
+#         continue
+#     getIDs(band[0],band[1],band[2],band[3],band[4],band[5],band[6])
 
 # remove duplicate keys
 result = {}
@@ -75,5 +91,22 @@ for key,value in data.items():
         result[key] = value
 
 # output data into a local file
-with open('data.json', 'w') as outfile:
+with open('artist_data.json', 'w') as outfile:
     json.dump(result, outfile)
+
+
+# with open('lyric_data.json') as f:
+#     ldata = json.load(f)
+
+# songs = [
+#     'Vasio',
+#     'Marcha Fúnebre',
+#     'Magno Caos',
+#     'Hecatombe'
+# ]
+
+# for song in songs:
+#     ldata[nanoid.generate(size=10)] = song
+
+# with open('lyric_data.json', 'w') as outfile:
+#     json.dump(ldata, outfile)
