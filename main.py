@@ -6,6 +6,7 @@ import whoFirst as whoFirstFn
 import bb3name
 import guessLyricsGame
 import data
+import useScores
 
 env_vars = {}
 with open('.env') as f:
@@ -49,7 +50,10 @@ async def lyrics(ctx: commands.Context):
 async def bothelp(ctx: commands.Context):
     await ctx.reply(data.helpText)
 # @bot.command()
-# async def test(ctx: commands.Context):
-#     await ctx.reply(ctx.message.author.mention)
+# async def scores(ctx: commands.Context):
+#     await ctx.reply(useScores.getScoreFormatted(str(ctx.message.author.id)))
+@bot.command()
+async def stats(ctx: commands.Context):
+    await ctx.reply(useScores.getScoreFormattedTable(str(ctx.message.author.id), str(ctx.message.author.name)))
 
 bot.run(env_vars['discord_access_token'])

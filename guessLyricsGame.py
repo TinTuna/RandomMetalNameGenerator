@@ -46,30 +46,33 @@ class Question(discord.ui.View):
         button_one = discord.ui.Button(label=self.artist, style=discord.ButtonStyle.primary)
         async def op1(interaction: discord.Interaction):
             # if the autor is not the original author, return
-            if self.checkUser(interaction, self.ctx.author) == False:
+            if await self.checkUser(interaction, self.ctx.author) == False:
                 return
             await interaction.response.send_message('**'+self.artist+'**  '+'Correct! ' + self.ans)
-            self.closeOut(interaction)
+            self.correct = True
+            await self.closeOut(interaction)
         button_one.callback = op1
 
         # BUTTON TWO
         button_two = discord.ui.Button(label=self.wrongChoice1, style=discord.ButtonStyle.primary)
         async def op2(interaction: discord.Interaction):
             # if the autor is not the original author, return
-            if self.checkUser(interaction, self.ctx.author) == False:
+            if await self.checkUser(interaction, self.ctx.author) == False:
                 return
             await interaction.response.send_message('**'+self.wrongChoice1+'**  '+'Wrong! ' + self.ans)
-            self.closeOut(interaction)
+            self.correct = False
+            await self.closeOut(interaction)
         button_two.callback = op2
 
         # BUTTON THREE
         button_three = discord.ui.Button(label=self.wrongChoice2, style=discord.ButtonStyle.primary)
         async def op3(interaction: discord.Interaction):
             # if the autor is not the original author, return
-            if self.checkUser(interaction, self.ctx.author) == False:
+            if await self.checkUser(interaction, self.ctx.author) == False:
                 return
             await interaction.response.send_message('**'+self.wrongChoice2+'**  '+'Wrong! ' + self.ans)
-            self.closeOut(interaction)
+            self.correct = False
+            await self.closeOut(interaction)
             
         button_three.callback = op3
 
@@ -84,7 +87,7 @@ class Question(discord.ui.View):
         button_hint = discord.ui.Button(label='Give me a hint', custom_id="button-hint", style=discord.ButtonStyle.green)
         async def hint(interaction: discord.Interaction):
             # if the autor is not the original author, return
-            if self.checkUser(interaction, self.ctx.author) == False:
+            if await self.checkUser(interaction, self.ctx.author) == False:
                 return
             random.SystemRandom()
             random.shuffle(self.hints)
@@ -108,12 +111,14 @@ class Question(discord.ui.View):
     async def closeOut(self, interaction):
         hintsUsed = 4 - len(self.hints)
         score = 5 - hintsUsed
+        if self.correct == False:
+            score = 0
         self.remove_item(self.button_hint)
         self.remove_item(self.button_two)
         self.remove_item(self.button_three)
         self.button_one.disabled = True
         await interaction.followup.edit_message(view=self, message_id=interaction.message.id)
-        useScores.addScore(self.ctx.message.author, score, self.artist, hintsUsed)
+        useScores.addScore(str(self.ctx.message.author.id), score, self.artist, hintsUsed)
         self.stop()
         
     async def checkUser(self, interaction, user):

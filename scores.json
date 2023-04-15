@@ -1,1 +1,13 @@
-{}
+{
+    "299945264242753546": {
+        "totalScore": 0, 
+        "plays": 0,
+        "wins": 0,
+        "hints": 0,
+        "lastPlayed": "",
+        "pointsToday": 0,
+        "streak": 0,
+        "streakMultiplier": 1,
+        "bands": {}
+    }
+}

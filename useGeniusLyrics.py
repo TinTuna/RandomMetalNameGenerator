@@ -15,9 +15,10 @@ with open('.env') as f:
 
 client_access_token = env_vars['genius_access_token']
 
-LyricsGenius = lyricsgenius.Genius(client_access_token)
+
 
 async def getLyrics(artist_name, album_name, song_name, song_id):
+    LyricsGenius = lyricsgenius.Genius(client_access_token)
     # Get the lyrics of the song
     lyrics = LyricsGenius.lyrics(song_id)
     # if no lyrics found, return
