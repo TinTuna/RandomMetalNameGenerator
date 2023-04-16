@@ -56,8 +56,10 @@ for band in band_data:
     if band[0] == '':
         continue
     # if the band is already in the dict, skip it
-    if band[0] in data:
-        continue
+    for existingbandData in data:
+        if str(band[0]).lower() == str(existingbandData).lower():
+            continue
+        
     # create the band in the dict
     data[band[0]] = {}
     data[band[0]]['id'] = nanoid.generate(size=10)
@@ -71,18 +73,6 @@ for band in band_data:
     data[band[0]]['albums'][band[1]]['Tinngles#8236'] = band[4]
     data[band[0]]['albums'][band[1]]['Izual#1552'] = band[3]
     data[band[0]]['albums'][band[1]]['songs'] = {}
-
-# band_data = getGoogleSheet.main('2022')
-# for band in band_data:
-#     if band[0] == '':
-#         continue
-#     getIDs(band[0],band[1],band[2],band[3],band[4],band[5],band[6])
-    
-# band_data = getGoogleSheet.main('2023')
-# for band in band_data:
-#     if band[0] == '':
-#         continue
-#     getIDs(band[0],band[1],band[2],band[3],band[4],band[5],band[6])
 
 # remove duplicate keys
 result = {}

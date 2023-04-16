@@ -231,11 +231,13 @@ def addScore(user_id, score, band, hints):
             'streakMultiplier': 1,
             'bands': {}
         }
+
+    streakScore = math.floor(score * scores[user_id]['streakMultiplier'])
     
     # check if the user has played today
     if scores[user_id]['lastPlayed'] == today:
         # if they have, add the score to pointsToday
-        scores[user_id]['pointsToday'] += score
+        scores[user_id]['pointsToday'] += streakScore
     else:
         # if they haven't, reset pointsToday
         scores[user_id]['pointsToday'] = score
@@ -247,7 +249,7 @@ def addScore(user_id, score, band, hints):
             'hints': 0
         }
 
-    scores[user_id]['totalScore'] += math.floor(score * scores[user_id]['streakMultiplier'])
+    scores[user_id]['totalScore'] += streakScore
     scores[user_id]['lastPlayed'] = today
     scores[user_id]['plays'] += 1
     scores[user_id]['bands'][band]['plays'] += 1
