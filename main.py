@@ -7,14 +7,8 @@ import bb3name
 import guessLyricsGame
 import data
 import useScores
-
-env_vars = {}
-with open('.env') as f:
-    for line in f:
-        if line.startswith('#') or not line.strip():
-            continue
-        key, value = line.strip().split('=', 1)
-        env_vars[key] = value
+import useEnvVars
+import metalMonthly
 
 class MyClient(discord.Client):
     async def on_ready(self):
@@ -55,5 +49,9 @@ async def bothelp(ctx: commands.Context):
 @bot.command()
 async def stats(ctx: commands.Context):
     await ctx.reply(useScores.getScoreFormattedTable(str(ctx.message.author.id), str(ctx.message.author.name)))
+@bot.command()
+async def map(ctx: commands.Context):
+    picture, top10 = await metalMonthly.map()
+    await ctx.reply(file=picture, content="Top 10 countries with the most bands:\n" + str(top10))
 
-bot.run(env_vars['discord_access_token'])
+bot.run(useEnvVars.env_vars['DISCORD_ACCESS_TOKEN'])

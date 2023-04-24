@@ -7,11 +7,14 @@ import math
 with open('scores.json') as f:
     scores = json.load(f)
 
+
 def getAllScores():
     return scores
 
+
 def getScoreData(user_id):
     return scores[user_id]
+
 
 def getScoreFormatted(user_id):
     # randomise random
@@ -22,7 +25,8 @@ def getScoreFormatted(user_id):
     message += "Total Score: " + str(scores[user_id]['totalScore']) + "\n"
     message += "Total Plays: " + str(scores[user_id]['plays']) + "\n"
     message += "Wins: " + str(scores[user_id]['wins']) + "\n"
-    message += "Losses: " + str(scores[user_id]['plays'] - scores[user_id]['wins']) + "\n"
+    message += "Losses: " + \
+        str(scores[user_id]['plays'] - scores[user_id]['wins']) + "\n"
     message += "Hints Used: " + str(scores[user_id]['hints']) + "\n\n"
 
     if scores[user_id]['bands'] == {}:
@@ -42,13 +46,12 @@ def getScoreFormatted(user_id):
             topBandData = scores[user_id]['bands'][band]
         elif scores[user_id]['bands'][band]['plays'] == topBandData['plays']:
             multiple = True
-            
+
     # get the most frequent band
     if multiple:
         message += "Most Frequent Band Served: Multiple Bands\n"
     else:
         message += "Most Frequent Band Served: " + topBand + "\n"
-
 
     # count the number of times each band has been answered
     multiple = False
@@ -66,7 +69,7 @@ def getScoreFormatted(user_id):
             topBandData = scores[user_id]['bands'][band]
         elif scores[user_id]['bands'][band]['wins'] == topBandData['wins']:
             multiple = True
-            
+
     # get the most frequent band
     if multiple:
         message += "Most Frequent Band Won: Multiple Bands\n"
@@ -81,6 +84,10 @@ def getScoreFormatted(user_id):
 def getScoreFormattedTable(user_id, user):
     if scores[user_id]['bands'] == {}:
         return user + ", play some games to get more stats!"
+
+    # check if the user has played today
+    if scores[user_id]['lastPlayed'] != str(datetime.datetime.today().date()):
+        scores[user_id]['pointsToday'] = 0
 
     # a long string os spaces
     spaces = '                                '
@@ -141,7 +148,7 @@ def getScoreFormattedTable(user_id, user):
         streakMultiplierSpaces = spaces[:4 - streakMultiplierLen]
 
     frequentBands = ''
-    
+
     # count the number of times each band has been played
     multiple = False
     topBand = None
@@ -156,13 +163,12 @@ def getScoreFormattedTable(user_id, user):
             topBandData = scores[user_id]['bands'][band]
         elif scores[user_id]['bands'][band]['plays'] == topBandData['plays']:
             multiple = True
-    
+
     # get the most frequent band
     if multiple:
         frequentBands += "Most Frequent Band Served: Multiple Bands\n"
     else:
         frequentBands += "Most Frequent Band Served: " + topBand + "\n"
-    
 
     # count the number of times each band has been answered
     multiple = False
@@ -180,7 +186,7 @@ def getScoreFormattedTable(user_id, user):
             topBandData = scores[user_id]['bands'][band]
         elif scores[user_id]['bands'][band]['wins'] == topBandData['wins']:
             multiple = True
-    
+
     # get the most frequent band
     if multiple:
         frequentBands += "Most Frequent Band Won: Multiple Bands\n"
@@ -189,39 +195,45 @@ def getScoreFormattedTable(user_id, user):
     else:
         frequentBands += "Most Frequent Band Won: " + topBand
 
-
-    table =  '```\n'
+    table = '```\n'
     table += '+------------------------------------+\n'
     table += '| ' + user + nameSpaces + '|\n'
     table += '+-----------------------------+------+\n'
-    table += '| Total Score                 | ' + totalScoreSpaces + str(totalScore) + ' |\n'
+    table += '| Total Score                 | ' + \
+        totalScoreSpaces + str(totalScore) + ' |\n'
     table += '+-----------------------------+------+\n'
-    table += '| Total Points Today          | ' + pointsTodaySpaces + str(pointsToday) + ' |\n'
+    table += '| Total Points Today          | ' + \
+        pointsTodaySpaces + str(pointsToday) + ' |\n'
     table += '+-----------------------------+------+\n'
-    table += '| Total Plays                 | ' + totalPlaysSpaces + str(totalPlays) + ' |\n'
+    table += '| Total Plays                 | ' + \
+        totalPlaysSpaces + str(totalPlays) + ' |\n'
     table += '+-----------------------------+------+\n'
-    table += '| Wins                        | ' + winsSpaces + str(wins) + ' |\n'
+    table += '| Wins                        | ' + \
+        winsSpaces + str(wins) + ' |\n'
     table += '+-----------------------------+------+\n'
-    table += '| Losses                      | ' + lossesSpaces + str(losses) + ' |\n'
+    table += '| Losses                      | ' + \
+        lossesSpaces + str(losses) + ' |\n'
     table += '+-----------------------------+------+\n'
-    table += '| Streak                      | ' + streakSpaces + str(streak) + ' |\n'
+    table += '| Streak                      | ' + \
+        streakSpaces + str(streak) + ' |\n'
     table += '+-----------------------------+------+\n'
-    table += '| Streak Multiplier           | ' + streakMultiplierSpaces + str(streakMultiplier) + ' |\n'
+    table += '| Streak Multiplier           | ' + \
+        streakMultiplierSpaces + str(streakMultiplier) + ' |\n'
     table += '+-----------------------------+------+\n'
-    table += '| Hints Used                  | ' + hintsSpaces + str(hints) + ' |\n'
+    table += '| Hints Used                  | ' + \
+        hintsSpaces + str(hints) + ' |\n'
     table += '+-----------------------------+------+\n'
     table += '```\n\n'
-    
 
     return message + table + frequentBands
-    
+
 
 def addScore(user_id, score, band, hints):
     today = str(datetime.datetime.today().date())
     # if its a new user, initialize their score
     if user_id not in scores:
         scores[user_id] = {
-            'totalScore': 0, 
+            'totalScore': 0,
             'plays': 0,
             'wins': 0,
             'hints': 0,
@@ -233,15 +245,15 @@ def addScore(user_id, score, band, hints):
         }
 
     streakScore = math.floor(score * scores[user_id]['streakMultiplier'])
-    
+
     # check if the user has played today
     if scores[user_id]['lastPlayed'] == today:
         # if they have, add the score to pointsToday
         scores[user_id]['pointsToday'] += streakScore
     else:
         # if they haven't, reset pointsToday
-        scores[user_id]['pointsToday'] = score
-    
+        scores[user_id]['pointsToday'] = streakScore
+
     if band not in scores[user_id]['bands']:
         scores[user_id]['bands'][band] = {
             'plays': 0,
@@ -262,9 +274,30 @@ def addScore(user_id, score, band, hints):
     else:
         scores[user_id]['streak'] = 0
         scores[user_id]['streakMultiplier'] = 1
-        
+
     scores[user_id]['bands'][band]['hints'] += hints
     scores[user_id]['hints'] += hints
+
     
-    with open('scores.json', 'w') as f:
-        json.dump(scores, f)
+
+    
+
+    try:
+        with open('scores.json', 'w') as f:
+            json.dump(scores, f)
+    except:
+        print("Could not write to scores.json")
+        print("Restoring backup...")
+        try:
+            with open('scores_backup.json') as f:
+                backupScores = json.load(f)
+            with open('scores.json', 'w') as f:
+                json.dump(backupScores, f)
+        except:
+            print("Could not restore backup :(")
+        else:
+            print("Backup restored")
+        
+    else: 
+        with open('scores_backup.json', 'w') as f:
+            json.dump(scores, f)

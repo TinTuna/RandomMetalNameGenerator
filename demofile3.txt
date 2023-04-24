@@ -1,0 +1,1705 @@
+                       country continent  year   lifeExp         pop      gdpPercap iso_alpha  iso_num
+0                  Afghanistan      Asia  1952  28.80100     8425333     779.445314       AFG        4
+1                  Afghanistan      Asia  1957  30.33200     9240934     820.853030       AFG        4
+2                  Afghanistan      Asia  1962  31.99700    10267083     853.100710       AFG        4
+3                  Afghanistan      Asia  1967  34.02000    11537966     836.197138       AFG        4
+4                  Afghanistan      Asia  1972  36.08800    13079460     739.981106       AFG        4
+5                  Afghanistan      Asia  1977  38.43800    14880372     786.113360       AFG        4
+6                  Afghanistan      Asia  1982  39.85400    12881816     978.011439       AFG        4
+7                  Afghanistan      Asia  1987  40.82200    13867957     852.395945       AFG        4
+8                  Afghanistan      Asia  1992  41.67400    16317921     649.341395       AFG        4
+9                  Afghanistan      Asia  1997  41.76300    22227415     635.341351       AFG        4
+10                 Afghanistan      Asia  2002  42.12900    25268405     726.734055       AFG        4
+11                 Afghanistan      Asia  2007  43.82800    31889923     974.580338       AFG        4
+12                     Albania    Europe  1952  55.23000     1282697    1601.056136       ALB        8
+13                     Albania    Europe  1957  59.28000     1476505    1942.284244       ALB        8
+14                     Albania    Europe  1962  64.82000     1728137    2312.888958       ALB        8
+15                     Albania    Europe  1967  66.22000     1984060    2760.196931       ALB        8
+16                     Albania    Europe  1972  67.69000     2263554    3313.422188       ALB        8
+17                     Albania    Europe  1977  68.93000     2509048    3533.003910       ALB        8
+18                     Albania    Europe  1982  70.42000     2780097    3630.880722       ALB        8
+19                     Albania    Europe  1987  72.00000     3075321    3738.932735       ALB        8
+20                     Albania    Europe  1992  71.58100     3326498    2497.437901       ALB        8
+21                     Albania    Europe  1997  72.95000     3428038    3193.054604       ALB        8
+22                     Albania    Europe  2002  75.65100     3508512    4604.211737       ALB        8
+23                     Albania    Europe  2007  76.42300     3600523    5937.029526       ALB        8
+24                     Algeria    Africa  1952  43.07700     9279525    2449.008185       DZA       12
+25                     Algeria    Africa  1957  45.68500    10270856    3013.976023       DZA       12
+26                     Algeria    Africa  1962  48.30300    11000948    2550.816880       DZA       12
+27                     Algeria    Africa  1967  51.40700    12760499    3246.991771       DZA       12
+28                     Algeria    Africa  1972  54.51800    14760787    4182.663766       DZA       12
+29                     Algeria    Africa  1977  58.01400    17152804    4910.416756       DZA       12
+30                     Algeria    Africa  1982  61.36800    20033753    5745.160213       DZA       12
+31                     Algeria    Africa  1987  65.79900    23254956    5681.358539       DZA       12
+32                     Algeria    Africa  1992  67.74400    26298373    5023.216647       DZA       12
+33                     Algeria    Africa  1997  69.15200    29072015    4797.295051       DZA       12
+34                     Algeria    Africa  2002  70.99400    31287142    5288.040382       DZA       12
+35                     Algeria    Africa  2007  72.30100    33333216    6223.367465       DZA       12
+36                      Angola    Africa  1952  30.01500     4232095    3520.610273       AGO       24
+37                      Angola    Africa  1957  31.99900     4561361    3827.940465       AGO       24
+38                      Angola    Africa  1962  34.00000     4826015    4269.276742       AGO       24
+39                      Angola    Africa  1967  35.98500     5247469    5522.776375       AGO       24
+40                      Angola    Africa  1972  37.92800     5894858    5473.288005       AGO       24
+41                      Angola    Africa  1977  39.48300     6162675    3008.647355       AGO       24
+42                      Angola    Africa  1982  39.94200     7016384    2756.953672       AGO       24
+43                      Angola    Africa  1987  39.90600     7874230    2430.208311       AGO       24
+44                      Angola    Africa  1992  40.64700     8735988    2627.845685       AGO       24
+45                      Angola    Africa  1997  40.96300     9875024    2277.140884       AGO       24
+46                      Angola    Africa  2002  41.00300    10866106    2773.287312       AGO       24
+47                      Angola    Africa  2007  42.73100    12420476    4797.231267       AGO       24
+48                   Argentina  Americas  1952  62.48500    17876956    5911.315053       ARG       32
+49                   Argentina  Americas  1957  64.39900    19610538    6856.856212       ARG       32
+50                   Argentina  Americas  1962  65.14200    21283783    7133.166023       ARG       32
+51                   Argentina  Americas  1967  65.63400    22934225    8052.953021       ARG       32
+52                   Argentina  Americas  1972  67.06500    24779799    9443.038526       ARG       32
+53                   Argentina  Americas  1977  68.48100    26983828   10079.026740       ARG       32
+54                   Argentina  Americas  1982  69.94200    29341374    8997.897412       ARG       32
+55                   Argentina  Americas  1987  70.77400    31620918    9139.671389       ARG       32
+56                   Argentina  Americas  1992  71.86800    33958947    9308.418710       ARG       32
+57                   Argentina  Americas  1997  73.27500    36203463   10967.281950       ARG       32
+58                   Argentina  Americas  2002  74.34000    38331121    8797.640716       ARG       32
+59                   Argentina  Americas  2007  75.32000    40301927   12779.379640       ARG       32
+60                   Australia   Oceania  1952  69.12000     8691212   10039.595640       AUS       36
+61                   Australia   Oceania  1957  70.33000     9712569   10949.649590       AUS       36
+62                   Australia   Oceania  1962  70.93000    10794968   12217.226860       AUS       36
+63                   Australia   Oceania  1967  71.10000    11872264   14526.124650       AUS       36
+64                   Australia   Oceania  1972  71.93000    13177000   16788.629480       AUS       36
+65                   Australia   Oceania  1977  73.49000    14074100   18334.197510       AUS       36
+66                   Australia   Oceania  1982  74.74000    15184200   19477.009280       AUS       36
+67                   Australia   Oceania  1987  76.32000    16257249   21888.889030       AUS       36
+68                   Australia   Oceania  1992  77.56000    17481977   23424.766830       AUS       36
+69                   Australia   Oceania  1997  78.83000    18565243   26997.936570       AUS       36
+70                   Australia   Oceania  2002  80.37000    19546792   30687.754730       AUS       36
+71                   Australia   Oceania  2007  81.23500    20434176   34435.367440       AUS       36
+72                     Austria    Europe  1952  66.80000     6927772    6137.076492       AUT       40
+73                     Austria    Europe  1957  67.48000     6965860    8842.598030       AUT       40
+74                     Austria    Europe  1962  69.54000     7129864   10750.721110       AUT       40
+75                     Austria    Europe  1967  70.14000     7376998   12834.602400       AUT       40
+76                     Austria    Europe  1972  70.63000     7544201   16661.625600       AUT       40
+77                     Austria    Europe  1977  72.17000     7568430   19749.422300       AUT       40
+78                     Austria    Europe  1982  73.18000     7574613   21597.083620       AUT       40
+79                     Austria    Europe  1987  74.94000     7578903   23687.826070       AUT       40
+80                     Austria    Europe  1992  76.04000     7914969   27042.018680       AUT       40
+81                     Austria    Europe  1997  77.51000     8069876   29095.920660       AUT       40
+82                     Austria    Europe  2002  78.98000     8148312   32417.607690       AUT       40
+83                     Austria    Europe  2007  79.82900     8199783   36126.492700       AUT       40
+84                     Bahrain      Asia  1952  50.93900      120447    9867.084765       BHR       48
+85                     Bahrain      Asia  1957  53.83200      138655   11635.799450       BHR       48
+86                     Bahrain      Asia  1962  56.92300      171863   12753.275140       BHR       48
+87                     Bahrain      Asia  1967  59.92300      202182   14804.672700       BHR       48
+88                     Bahrain      Asia  1972  63.30000      230800   18268.658390       BHR       48
+89                     Bahrain      Asia  1977  65.59300      297410   19340.101960       BHR       48
+90                     Bahrain      Asia  1982  69.05200      377967   19211.147310       BHR       48
+91                     Bahrain      Asia  1987  70.75000      454612   18524.024060       BHR       48
+92                     Bahrain      Asia  1992  72.60100      529491   19035.579170       BHR       48
+93                     Bahrain      Asia  1997  73.92500      598561   20292.016790       BHR       48
+94                     Bahrain      Asia  2002  74.79500      656397   23403.559270       BHR       48
+95                     Bahrain      Asia  2007  75.63500      708573   29796.048340       BHR       48
+96                  Bangladesh      Asia  1952  37.48400    46886859     684.244172       BGD       50
+97                  Bangladesh      Asia  1957  39.34800    51365468     661.637458       BGD       50
+98                  Bangladesh      Asia  1962  41.21600    56839289     686.341554       BGD       50
+99                  Bangladesh      Asia  1967  43.45300    62821884     721.186086       BGD       50
+100                 Bangladesh      Asia  1972  45.25200    70759295     630.233627       BGD       50
+101                 Bangladesh      Asia  1977  46.92300    80428306     659.877232       BGD       50
+102                 Bangladesh      Asia  1982  50.00900    93074406     676.981866       BGD       50
+103                 Bangladesh      Asia  1987  52.81900   103764241     751.979403       BGD       50
+104                 Bangladesh      Asia  1992  56.01800   113704579     837.810164       BGD       50
+105                 Bangladesh      Asia  1997  59.41200   123315288     972.770035       BGD       50
+106                 Bangladesh      Asia  2002  62.01300   135656790    1136.390430       BGD       50
+107                 Bangladesh      Asia  2007  64.06200   150448339    1391.253792       BGD       50
+108                    Belgium    Europe  1952  68.00000     8730405    8343.105127       BEL       56
+109                    Belgium    Europe  1957  69.24000     8989111    9714.960623       BEL       56
+110                    Belgium    Europe  1962  70.25000     9218400   10991.206760       BEL       56
+111                    Belgium    Europe  1967  70.94000     9556500   13149.041190       BEL       56
+112                    Belgium    Europe  1972  71.44000     9709100   16672.143560       BEL       56
+113                    Belgium    Europe  1977  72.80000     9821800   19117.974480       BEL       56
+114                    Belgium    Europe  1982  73.93000     9856303   20979.845890       BEL       56
+115                    Belgium    Europe  1987  75.35000     9870200   22525.563080       BEL       56
+116                    Belgium    Europe  1992  76.46000    10045622   25575.570690       BEL       56
+117                    Belgium    Europe  1997  77.53000    10199787   27561.196630       BEL       56
+118                    Belgium    Europe  2002  78.32000    10311970   30485.883750       BEL       56
+119                    Belgium    Europe  2007  79.44100    10392226   33692.605080       BEL       56
+120                      Benin    Africa  1952  38.22300     1738315    1062.752200       BEN      204
+121                      Benin    Africa  1957  40.35800     1925173     959.601080       BEN      204
+122                      Benin    Africa  1962  42.61800     2151895     949.499064       BEN      204
+123                      Benin    Africa  1967  44.88500     2427334    1035.831411       BEN      204
+124                      Benin    Africa  1972  47.01400     2761407    1085.796879       BEN      204
+125                      Benin    Africa  1977  49.19000     3168267    1029.161251       BEN      204
+126                      Benin    Africa  1982  50.90400     3641603    1277.897616       BEN      204
+127                      Benin    Africa  1987  52.33700     4243788    1225.856010       BEN      204
+128                      Benin    Africa  1992  53.91900     4981671    1191.207681       BEN      204
+129                      Benin    Africa  1997  54.77700     6066080    1232.975292       BEN      204
+130                      Benin    Africa  2002  54.40600     7026113    1372.877931       BEN      204
+131                      Benin    Africa  2007  56.72800     8078314    1441.284873       BEN      204
+132                    Bolivia  Americas  1952  40.41400     2883315    2677.326347       BOL       68
+133                    Bolivia  Americas  1957  41.89000     3211738    2127.686326       BOL       68
+134                    Bolivia  Americas  1962  43.42800     3593918    2180.972546       BOL       68
+135                    Bolivia  Americas  1967  45.03200     4040665    2586.886053       BOL       68
+136                    Bolivia  Americas  1972  46.71400     4565872    2980.331339       BOL       68
+137                    Bolivia  Americas  1977  50.02300     5079716    3548.097832       BOL       68
+138                    Bolivia  Americas  1982  53.85900     5642224    3156.510452       BOL       68
+139                    Bolivia  Americas  1987  57.25100     6156369    2753.691490       BOL       68
+140                    Bolivia  Americas  1992  59.95700     6893451    2961.699694       BOL       68
+141                    Bolivia  Americas  1997  62.05000     7693188    3326.143191       BOL       68
+142                    Bolivia  Americas  2002  63.88300     8445134    3413.262690       BOL       68
+143                    Bolivia  Americas  2007  65.55400     9119152    3822.137084       BOL       68
+144     Bosnia and Herzegovina    Europe  1952  53.82000     2791000     973.533195       BIH       70
+145     Bosnia and Herzegovina    Europe  1957  58.45000     3076000    1353.989176       BIH       70
+146     Bosnia and Herzegovina    Europe  1962  61.93000     3349000    1709.683679       BIH       70
+147     Bosnia and Herzegovina    Europe  1967  64.79000     3585000    2172.352423       BIH       70
+148     Bosnia and Herzegovina    Europe  1972  67.45000     3819000    2860.169750       BIH       70
+149     Bosnia and Herzegovina    Europe  1977  69.86000     4086000    3528.481305       BIH       70
+150     Bosnia and Herzegovina    Europe  1982  70.69000     4172693    4126.613157       BIH       70
+151     Bosnia and Herzegovina    Europe  1987  71.14000     4338977    4314.114757       BIH       70
+152     Bosnia and Herzegovina    Europe  1992  72.17800     4256013    2546.781445       BIH       70
+153     Bosnia and Herzegovina    Europe  1997  73.24400     3607000    4766.355904       BIH       70
+154     Bosnia and Herzegovina    Europe  2002  74.09000     4165416    6018.975239       BIH       70
+155     Bosnia and Herzegovina    Europe  2007  74.85200     4552198    7446.298803       BIH       70
+156                   Botswana    Africa  1952  47.62200      442308     851.241141       BWA       72
+157                   Botswana    Africa  1957  49.61800      474639     918.232535       BWA       72
+158                   Botswana    Africa  1962  51.52000      512764     983.653976       BWA       72
+159                   Botswana    Africa  1967  53.29800      553541    1214.709294       BWA       72
+160                   Botswana    Africa  1972  56.02400      619351    2263.611114       BWA       72
+161                   Botswana    Africa  1977  59.31900      781472    3214.857818       BWA       72
+162                   Botswana    Africa  1982  61.48400      970347    4551.142150       BWA       72
+163                   Botswana    Africa  1987  63.62200     1151184    6205.883850       BWA       72
+164                   Botswana    Africa  1992  62.74500     1342614    7954.111645       BWA       72
+165                   Botswana    Africa  1997  52.55600     1536536    8647.142313       BWA       72
+166                   Botswana    Africa  2002  46.63400     1630347   11003.605080       BWA       72
+167                   Botswana    Africa  2007  50.72800     1639131   12569.851770       BWA       72
+168                     Brazil  Americas  1952  50.91700    56602560    2108.944355       BRA       76
+169                     Brazil  Americas  1957  53.28500    65551171    2487.365989       BRA       76
+170                     Brazil  Americas  1962  55.66500    76039390    3336.585802       BRA       76
+171                     Brazil  Americas  1967  57.63200    88049823    3429.864357       BRA       76
+172                     Brazil  Americas  1972  59.50400   100840058    4985.711467       BRA       76
+173                     Brazil  Americas  1977  61.48900   114313951    6660.118654       BRA       76
+174                     Brazil  Americas  1982  63.33600   128962939    7030.835878       BRA       76
+175                     Brazil  Americas  1987  65.20500   142938076    7807.095818       BRA       76
+176                     Brazil  Americas  1992  67.05700   155975974    6950.283021       BRA       76
+177                     Brazil  Americas  1997  69.38800   168546719    7957.980824       BRA       76
+178                     Brazil  Americas  2002  71.00600   179914212    8131.212843       BRA       76
+179                     Brazil  Americas  2007  72.39000   190010647    9065.800825       BRA       76
+180                   Bulgaria    Europe  1952  59.60000     7274900    2444.286648       BGR      100
+181                   Bulgaria    Europe  1957  66.61000     7651254    3008.670727       BGR      100
+182                   Bulgaria    Europe  1962  69.51000     8012946    4254.337839       BGR      100
+183                   Bulgaria    Europe  1967  70.42000     8310226    5577.002800       BGR      100
+184                   Bulgaria    Europe  1972  70.90000     8576200    6597.494398       BGR      100
+185                   Bulgaria    Europe  1977  70.81000     8797022    7612.240438       BGR      100
+186                   Bulgaria    Europe  1982  71.08000     8892098    8224.191647       BGR      100
+187                   Bulgaria    Europe  1987  71.34000     8971958    8239.854824       BGR      100
+188                   Bulgaria    Europe  1992  71.19000     8658506    6302.623438       BGR      100
+189                   Bulgaria    Europe  1997  70.32000     8066057    5970.388760       BGR      100
+190                   Bulgaria    Europe  2002  72.14000     7661799    7696.777725       BGR      100
+191                   Bulgaria    Europe  2007  73.00500     7322858   10680.792820       BGR      100
+192               Burkina Faso    Africa  1952  31.97500     4469979     543.255241       BFA      854
+193               Burkina Faso    Africa  1957  34.90600     4713416     617.183465       BFA      854
+194               Burkina Faso    Africa  1962  37.81400     4919632     722.512021       BFA      854
+195               Burkina Faso    Africa  1967  40.69700     5127935     794.826560       BFA      854
+196               Burkina Faso    Africa  1972  43.59100     5433886     854.735976       BFA      854
+197               Burkina Faso    Africa  1977  46.13700     5889574     743.387037       BFA      854
+198               Burkina Faso    Africa  1982  48.12200     6634596     807.198586       BFA      854
+199               Burkina Faso    Africa  1987  49.55700     7586551     912.063142       BFA      854
+200               Burkina Faso    Africa  1992  50.26000     8878303     931.752773       BFA      854
+201               Burkina Faso    Africa  1997  50.32400    10352843     946.294962       BFA      854
+202               Burkina Faso    Africa  2002  50.65000    12251209    1037.645221       BFA      854
+203               Burkina Faso    Africa  2007  52.29500    14326203    1217.032994       BFA      854
+204                    Burundi    Africa  1952  39.03100     2445618     339.296459       BDI      108
+205                    Burundi    Africa  1957  40.53300     2667518     379.564628       BDI      108
+206                    Burundi    Africa  1962  42.04500     2961915     355.203227       BDI      108
+207                    Burundi    Africa  1967  43.54800     3330989     412.977514       BDI      108
+208                    Burundi    Africa  1972  44.05700     3529983     464.099504       BDI      108
+209                    Burundi    Africa  1977  45.91000     3834415     556.103265       BDI      108
+210                    Burundi    Africa  1982  47.47100     4580410     559.603231       BDI      108
+211                    Burundi    Africa  1987  48.21100     5126023     621.818819       BDI      108
+212                    Burundi    Africa  1992  44.73600     5809236     631.699878       BDI      108
+213                    Burundi    Africa  1997  45.32600     6121610     463.115148       BDI      108
+214                    Burundi    Africa  2002  47.36000     7021078     446.403513       BDI      108
+215                    Burundi    Africa  2007  49.58000     8390505     430.070692       BDI      108
+216                   Cambodia      Asia  1952  39.41700     4693836     368.469286       KHM      116
+217                   Cambodia      Asia  1957  41.36600     5322536     434.038336       KHM      116
+218                   Cambodia      Asia  1962  43.41500     6083619     496.913648       KHM      116
+219                   Cambodia      Asia  1967  45.41500     6960067     523.432314       KHM      116
+220                   Cambodia      Asia  1972  40.31700     7450606     421.624026       KHM      116
+221                   Cambodia      Asia  1977  31.22000     6978607     524.972183       KHM      116
+222                   Cambodia      Asia  1982  50.95700     7272485     624.475478       KHM      116
+223                   Cambodia      Asia  1987  53.91400     8371791     683.895573       KHM      116
+224                   Cambodia      Asia  1992  55.80300    10150094     682.303175       KHM      116
+225                   Cambodia      Asia  1997  56.53400    11782962     734.285170       KHM      116
+226                   Cambodia      Asia  2002  56.75200    12926707     896.226015       KHM      116
+227                   Cambodia      Asia  2007  59.72300    14131858    1713.778686       KHM      116
+228                   Cameroon    Africa  1952  38.52300     5009067    1172.667655       CMR      120
+229                   Cameroon    Africa  1957  40.42800     5359923    1313.048099       CMR      120
+230                   Cameroon    Africa  1962  42.64300     5793633    1399.607441       CMR      120
+231                   Cameroon    Africa  1967  44.79900     6335506    1508.453148       CMR      120
+232                   Cameroon    Africa  1972  47.04900     7021028    1684.146528       CMR      120
+233                   Cameroon    Africa  1977  49.35500     7959865    1783.432873       CMR      120
+234                   Cameroon    Africa  1982  52.96100     9250831    2367.983282       CMR      120
+235                   Cameroon    Africa  1987  54.98500    10780667    2602.664206       CMR      120
+236                   Cameroon    Africa  1992  54.31400    12467171    1793.163278       CMR      120
+237                   Cameroon    Africa  1997  52.19900    14195809    1694.337469       CMR      120
+238                   Cameroon    Africa  2002  49.85600    15929988    1934.011449       CMR      120
+239                   Cameroon    Africa  2007  50.43000    17696293    2042.095240       CMR      120
+240                     Canada  Americas  1952  68.75000    14785584   11367.161120       CAN      124
+241                     Canada  Americas  1957  69.96000    17010154   12489.950060       CAN      124
+242                     Canada  Americas  1962  71.30000    18985849   13462.485550       CAN      124
+243                     Canada  Americas  1967  72.13000    20819767   16076.588030       CAN      124
+244                     Canada  Americas  1972  72.88000    22284500   18970.570860       CAN      124
+245                     Canada  Americas  1977  74.21000    23796400   22090.883060       CAN      124
+246                     Canada  Americas  1982  75.76000    25201900   22898.792140       CAN      124
+247                     Canada  Americas  1987  76.86000    26549700   26626.515030       CAN      124
+248                     Canada  Americas  1992  77.95000    28523502   26342.884260       CAN      124
+249                     Canada  Americas  1997  78.61000    30305843   28954.925890       CAN      124
+250                     Canada  Americas  2002  79.77000    31902268   33328.965070       CAN      124
+251                     Canada  Americas  2007  80.65300    33390141   36319.235010       CAN      124
+252   Central African Republic    Africa  1952  35.46300     1291695    1071.310713       CAF      140
+253   Central African Republic    Africa  1957  37.46400     1392284    1190.844328       CAF      140
+254   Central African Republic    Africa  1962  39.47500     1523478    1193.068753       CAF      140
+255   Central African Republic    Africa  1967  41.47800     1733638    1136.056615       CAF      140
+256   Central African Republic    Africa  1972  43.45700     1927260    1070.013275       CAF      140
+257   Central African Republic    Africa  1977  46.77500     2167533    1109.374338       CAF      140
+258   Central African Republic    Africa  1982  48.29500     2476971     956.752991       CAF      140
+259   Central African Republic    Africa  1987  50.48500     2840009     844.876350       CAF      140
+260   Central African Republic    Africa  1992  49.39600     3265124     747.905525       CAF      140
+261   Central African Republic    Africa  1997  46.06600     3696513     740.506332       CAF      140
+262   Central African Republic    Africa  2002  43.30800     4048013     738.690607       CAF      140
+263   Central African Republic    Africa  2007  44.74100     4369038     706.016537       CAF      140
+264                       Chad    Africa  1952  38.09200     2682462    1178.665927       TCD      148
+265                       Chad    Africa  1957  39.88100     2894855    1308.495577       TCD      148
+266                       Chad    Africa  1962  41.71600     3150417    1389.817618       TCD      148
+267                       Chad    Africa  1967  43.60100     3495967    1196.810565       TCD      148
+268                       Chad    Africa  1972  45.56900     3899068    1104.103987       TCD      148
+269                       Chad    Africa  1977  47.38300     4388260    1133.984950       TCD      148
+270                       Chad    Africa  1982  49.51700     4875118     797.908101       TCD      148
+271                       Chad    Africa  1987  51.05100     5498955     952.386129       TCD      148
+272                       Chad    Africa  1992  51.72400     6429417    1058.064300       TCD      148
+273                       Chad    Africa  1997  51.57300     7562011    1004.961353       TCD      148
+274                       Chad    Africa  2002  50.52500     8835739    1156.181860       TCD      148
+275                       Chad    Africa  2007  50.65100    10238807    1704.063724       TCD      148
+276                      Chile  Americas  1952  54.74500     6377619    3939.978789       CHL      152
+277                      Chile  Americas  1957  56.07400     7048426    4315.622723       CHL      152
+278                      Chile  Americas  1962  57.92400     7961258    4519.094331       CHL      152
+279                      Chile  Americas  1967  60.52300     8858908    5106.654313       CHL      152
+280                      Chile  Americas  1972  63.44100     9717524    5494.024437       CHL      152
+281                      Chile  Americas  1977  67.05200    10599793    4756.763836       CHL      152
+282                      Chile  Americas  1982  70.56500    11487112    5095.665738       CHL      152
+283                      Chile  Americas  1987  72.49200    12463354    5547.063754       CHL      152
+284                      Chile  Americas  1992  74.12600    13572994    7596.125964       CHL      152
+285                      Chile  Americas  1997  75.81600    14599929   10118.053180       CHL      152
+286                      Chile  Americas  2002  77.86000    15497046   10778.783850       CHL      152
+287                      Chile  Americas  2007  78.55300    16284741   13171.638850       CHL      152
+288                      China      Asia  1952  44.00000   556263527     400.448611       CHN      156
+289                      China      Asia  1957  50.54896   637408000     575.987001       CHN      156
+290                      China      Asia  1962  44.50136   665770000     487.674018       CHN      156
+291                      China      Asia  1967  58.38112   754550000     612.705693       CHN      156
+292                      China      Asia  1972  63.11888   862030000     676.900092       CHN      156
+293                      China      Asia  1977  63.96736   943455000     741.237470       CHN      156
+294                      China      Asia  1982  65.52500  1000281000     962.421381       CHN      156
+295                      China      Asia  1987  67.27400  1084035000    1378.904018       CHN      156
+296                      China      Asia  1992  68.69000  1164970000    1655.784158       CHN      156
+297                      China      Asia  1997  70.42600  1230075000    2289.234136       CHN      156
+298                      China      Asia  2002  72.02800  1280400000    3119.280896       CHN      156
+299                      China      Asia  2007  72.96100  1318683096    4959.114854       CHN      156
+300                   Colombia  Americas  1952  50.64300    12350771    2144.115096       COL      170
+301                   Colombia  Americas  1957  55.11800    14485993    2323.805581       COL      170
+302                   Colombia  Americas  1962  57.86300    17009885    2492.351109       COL      170
+303                   Colombia  Americas  1967  59.96300    19764027    2678.729839       COL      170
+304                   Colombia  Americas  1972  61.62300    22542890    3264.660041       COL      170
+305                   Colombia  Americas  1977  63.83700    25094412    3815.807870       COL      170
+306                   Colombia  Americas  1982  66.65300    27764644    4397.575659       COL      170
+307                   Colombia  Americas  1987  67.76800    30964245    4903.219100       COL      170
+308                   Colombia  Americas  1992  68.42100    34202721    5444.648617       COL      170
+309                   Colombia  Americas  1997  70.31300    37657830    6117.361746       COL      170
+310                   Colombia  Americas  2002  71.68200    41008227    5755.259962       COL      170
+311                   Colombia  Americas  2007  72.88900    44227550    7006.580419       COL      170
+312                    Comoros    Africa  1952  40.71500      153936    1102.990936       COM      174
+313                    Comoros    Africa  1957  42.46000      170928    1211.148548       COM      174
+314                    Comoros    Africa  1962  44.46700      191689    1406.648278       COM      174
+315                    Comoros    Africa  1967  46.47200      217378    1876.029643       COM      174
+316                    Comoros    Africa  1972  48.94400      250027    1937.577675       COM      174
+317                    Comoros    Africa  1977  50.93900      304739    1172.603047       COM      174
+318                    Comoros    Africa  1982  52.93300      348643    1267.100083       COM      174
+319                    Comoros    Africa  1987  54.92600      395114    1315.980812       COM      174
+320                    Comoros    Africa  1992  57.93900      454429    1246.907370       COM      174
+321                    Comoros    Africa  1997  60.66000      527982    1173.618235       COM      174
+322                    Comoros    Africa  2002  62.97400      614382    1075.811558       COM      174
+323                    Comoros    Africa  2007  65.15200      710960     986.147879       COM      174
+324           Congo, Dem. Rep.    Africa  1952  39.14300    14100005     780.542326       COD      180
+325           Congo, Dem. Rep.    Africa  1957  40.65200    15577932     905.860230       COD      180
+326           Congo, Dem. Rep.    Africa  1962  42.12200    17486434     896.314634       COD      180
+327           Congo, Dem. Rep.    Africa  1967  44.05600    19941073     861.593242       COD      180
+328           Congo, Dem. Rep.    Africa  1972  45.98900    23007669     904.896068       COD      180
+329           Congo, Dem. Rep.    Africa  1977  47.80400    26480870     795.757282       COD      180
+330           Congo, Dem. Rep.    Africa  1982  47.78400    30646495     673.747818       COD      180
+331           Congo, Dem. Rep.    Africa  1987  47.41200    35481645     672.774812       COD      180
+332           Congo, Dem. Rep.    Africa  1992  45.54800    41672143     457.719181       COD      180
+333           Congo, Dem. Rep.    Africa  1997  42.58700    47798986     312.188423       COD      180
+334           Congo, Dem. Rep.    Africa  2002  44.96600    55379852     241.165876       COD      180
+335           Congo, Dem. Rep.    Africa  2007  46.46200    64606759     277.551859       COD      180
+336                Congo, Rep.    Africa  1952  42.11100      854885    2125.621418       COG      178
+337                Congo, Rep.    Africa  1957  45.05300      940458    2315.056572       COG      178
+338                Congo, Rep.    Africa  1962  48.43500     1047924    2464.783157       COG      178
+339                Congo, Rep.    Africa  1967  52.04000     1179760    2677.939642       COG      178
+340                Congo, Rep.    Africa  1972  54.90700     1340458    3213.152683       COG      178
+341                Congo, Rep.    Africa  1977  55.62500     1536769    3259.178978       COG      178
+342                Congo, Rep.    Africa  1982  56.69500     1774735    4879.507522       COG      178
+343                Congo, Rep.    Africa  1987  57.47000     2064095    4201.194937       COG      178
+344                Congo, Rep.    Africa  1992  56.43300     2409073    4016.239529       COG      178
+345                Congo, Rep.    Africa  1997  52.96200     2800947    3484.164376       COG      178
+346                Congo, Rep.    Africa  2002  52.97000     3328795    3484.061970       COG      178
+347                Congo, Rep.    Africa  2007  55.32200     3800610    3632.557798       COG      178
+348                 Costa Rica  Americas  1952  57.20600      926317    2627.009471       CRI      188
+349                 Costa Rica  Americas  1957  60.02600     1112300    2990.010802       CRI      188
+350                 Costa Rica  Americas  1962  62.84200     1345187    3460.937025       CRI      188
+351                 Costa Rica  Americas  1967  65.42400     1588717    4161.727834       CRI      188
+352                 Costa Rica  Americas  1972  67.84900     1834796    5118.146939       CRI      188
+353                 Costa Rica  Americas  1977  70.75000     2108457    5926.876967       CRI      188
+354                 Costa Rica  Americas  1982  73.45000     2424367    5262.734751       CRI      188
+355                 Costa Rica  Americas  1987  74.75200     2799811    5629.915318       CRI      188
+356                 Costa Rica  Americas  1992  75.71300     3173216    6160.416317       CRI      188
+357                 Costa Rica  Americas  1997  77.26000     3518107    6677.045314       CRI      188
+358                 Costa Rica  Americas  2002  78.12300     3834934    7723.447195       CRI      188
+359                 Costa Rica  Americas  2007  78.78200     4133884    9645.061420       CRI      188
+360              Cote d'Ivoire    Africa  1952  40.47700     2977019    1388.594732       CIV      384
+361              Cote d'Ivoire    Africa  1957  42.46900     3300000    1500.895925       CIV      384
+362              Cote d'Ivoire    Africa  1962  44.93000     3832408    1728.869428       CIV      384
+363              Cote d'Ivoire    Africa  1967  47.35000     4744870    2052.050473       CIV      384
+364              Cote d'Ivoire    Africa  1972  49.80100     6071696    2378.201111       CIV      384
+365              Cote d'Ivoire    Africa  1977  52.37400     7459574    2517.736547       CIV      384
+366              Cote d'Ivoire    Africa  1982  53.98300     9025951    2602.710169       CIV      384
+367              Cote d'Ivoire    Africa  1987  54.65500    10761098    2156.956069       CIV      384
+368              Cote d'Ivoire    Africa  1992  52.04400    12772596    1648.073791       CIV      384
+369              Cote d'Ivoire    Africa  1997  47.99100    14625967    1786.265407       CIV      384
+370              Cote d'Ivoire    Africa  2002  46.83200    16252726    1648.800823       CIV      384
+371              Cote d'Ivoire    Africa  2007  48.32800    18013409    1544.750112       CIV      384
+372                    Croatia    Europe  1952  61.21000     3882229    3119.236520       HRV      191
+373                    Croatia    Europe  1957  64.77000     3991242    4338.231617       HRV      191
+374                    Croatia    Europe  1962  67.13000     4076557    5477.890018       HRV      191
+375                    Croatia    Europe  1967  68.50000     4174366    6960.297861       HRV      191
+376                    Croatia    Europe  1972  69.61000     4225310    9164.090127       HRV      191
+377                    Croatia    Europe  1977  70.64000     4318673   11305.385170       HRV      191
+378                    Croatia    Europe  1982  70.46000     4413368   13221.821840       HRV      191
+379                    Croatia    Europe  1987  71.52000     4484310   13822.583940       HRV      191
+380                    Croatia    Europe  1992  72.52700     4494013    8447.794873       HRV      191
+381                    Croatia    Europe  1997  73.68000     4444595    9875.604515       HRV      191
+382                    Croatia    Europe  2002  74.87600     4481020   11628.388950       HRV      191
+383                    Croatia    Europe  2007  75.74800     4493312   14619.222720       HRV      191
+384                       Cuba  Americas  1952  59.42100     6007797    5586.538780       CUB      192
+385                       Cuba  Americas  1957  62.32500     6640752    6092.174359       CUB      192
+386                       Cuba  Americas  1962  65.24600     7254373    5180.755910       CUB      192
+387                       Cuba  Americas  1967  68.29000     8139332    5690.268015       CUB      192
+388                       Cuba  Americas  1972  70.72300     8831348    5305.445256       CUB      192
+389                       Cuba  Americas  1977  72.64900     9537988    6380.494966       CUB      192
+390                       Cuba  Americas  1982  73.71700     9789224    7316.918107       CUB      192
+391                       Cuba  Americas  1987  74.17400    10239839    7532.924763       CUB      192
+392                       Cuba  Americas  1992  74.41400    10723260    5592.843963       CUB      192
+393                       Cuba  Americas  1997  76.15100    10983007    5431.990415       CUB      192
+394                       Cuba  Americas  2002  77.15800    11226999    6340.646683       CUB      192
+395                       Cuba  Americas  2007  78.27300    11416987    8948.102923       CUB      192
+396             Czech Republic    Europe  1952  66.87000     9125183    6876.140250       CZE      203
+397             Czech Republic    Europe  1957  69.03000     9513758    8256.343918       CZE      203
+398             Czech Republic    Europe  1962  69.90000     9620282   10136.867130       CZE      203
+399             Czech Republic    Europe  1967  70.38000     9835109   11399.444890       CZE      203
+400             Czech Republic    Europe  1972  70.29000     9862158   13108.453600       CZE      203
+401             Czech Republic    Europe  1977  70.71000    10161915   14800.160620       CZE      203
+402             Czech Republic    Europe  1982  70.96000    10303704   15377.228550       CZE      203
+403             Czech Republic    Europe  1987  71.58000    10311597   16310.443400       CZE      203
+404             Czech Republic    Europe  1992  72.40000    10315702   14297.021220       CZE      203
+405             Czech Republic    Europe  1997  74.01000    10300707   16048.514240       CZE      203
+406             Czech Republic    Europe  2002  75.51000    10256295   17596.210220       CZE      203
+407             Czech Republic    Europe  2007  76.48600    10228744   22833.308510       CZE      203
+408                    Denmark    Europe  1952  70.78000     4334000    9692.385245       DNK      208
+409                    Denmark    Europe  1957  71.81000     4487831   11099.659350       DNK      208
+410                    Denmark    Europe  1962  72.35000     4646899   13583.313510       DNK      208
+411                    Denmark    Europe  1967  72.96000     4838800   15937.211230       DNK      208
+412                    Denmark    Europe  1972  73.47000     4991596   18866.207210       DNK      208
+413                    Denmark    Europe  1977  74.69000     5088419   20422.901500       DNK      208
+414                    Denmark    Europe  1982  74.63000     5117810   21688.040480       DNK      208
+415                    Denmark    Europe  1987  74.80000     5127024   25116.175810       DNK      208
+416                    Denmark    Europe  1992  75.33000     5171393   26406.739850       DNK      208
+417                    Denmark    Europe  1997  76.11000     5283663   29804.345670       DNK      208
+418                    Denmark    Europe  2002  77.18000     5374693   32166.500060       DNK      208
+419                    Denmark    Europe  2007  78.33200     5468120   35278.418740       DNK      208
+420                   Djibouti    Africa  1952  34.81200       63149    2669.529475       DJI      262
+421                   Djibouti    Africa  1957  37.32800       71851    2864.969076       DJI      262
+422                   Djibouti    Africa  1962  39.69300       89898    3020.989263       DJI      262
+423                   Djibouti    Africa  1967  42.07400      127617    3020.050513       DJI      262
+424                   Djibouti    Africa  1972  44.36600      178848    3694.212352       DJI      262
+425                   Djibouti    Africa  1977  46.51900      228694    3081.761022       DJI      262
+426                   Djibouti    Africa  1982  48.81200      305991    2879.468067       DJI      262
+427                   Djibouti    Africa  1987  50.04000      311025    2880.102568       DJI      262
+428                   Djibouti    Africa  1992  51.60400      384156    2377.156192       DJI      262
+429                   Djibouti    Africa  1997  53.15700      417908    1895.016984       DJI      262
+430                   Djibouti    Africa  2002  53.37300      447416    1908.260867       DJI      262
+431                   Djibouti    Africa  2007  54.79100      496374    2082.481567       DJI      262
+432         Dominican Republic  Americas  1952  45.92800     2491346    1397.717137       DOM      214
+433         Dominican Republic  Americas  1957  49.82800     2923186    1544.402995       DOM      214
+434         Dominican Republic  Americas  1962  53.45900     3453434    1662.137359       DOM      214
+435         Dominican Republic  Americas  1967  56.75100     4049146    1653.723003       DOM      214
+436         Dominican Republic  Americas  1972  59.63100     4671329    2189.874499       DOM      214
+437         Dominican Republic  Americas  1977  61.78800     5302800    2681.988900       DOM      214
+438         Dominican Republic  Americas  1982  63.72700     5968349    2861.092386       DOM      214
+439         Dominican Republic  Americas  1987  66.04600     6655297    2899.842175       DOM      214
+440         Dominican Republic  Americas  1992  68.45700     7351181    3044.214214       DOM      214
+441         Dominican Republic  Americas  1997  69.95700     7992357    3614.101285       DOM      214
+442         Dominican Republic  Americas  2002  70.84700     8650322    4563.808154       DOM      214
+443         Dominican Republic  Americas  2007  72.23500     9319622    6025.374752       DOM      214
+444                    Ecuador  Americas  1952  48.35700     3548753    3522.110717       ECU      218
+445                    Ecuador  Americas  1957  51.35600     4058385    3780.546651       ECU      218
+446                    Ecuador  Americas  1962  54.64000     4681707    4086.114078       ECU      218
+447                    Ecuador  Americas  1967  56.67800     5432424    4579.074215       ECU      218
+448                    Ecuador  Americas  1972  58.79600     6298651    5280.994710       ECU      218
+449                    Ecuador  Americas  1977  61.31000     7278866    6679.623260       ECU      218
+450                    Ecuador  Americas  1982  64.34200     8365850    7213.791267       ECU      218
+451                    Ecuador  Americas  1987  67.23100     9545158    6481.776993       ECU      218
+452                    Ecuador  Americas  1992  69.61300    10748394    7103.702595       ECU      218
+453                    Ecuador  Americas  1997  72.31200    11911819    7429.455877       ECU      218
+454                    Ecuador  Americas  2002  74.17300    12921234    5773.044512       ECU      218
+455                    Ecuador  Americas  2007  74.99400    13755680    6873.262326       ECU      218
+456                      Egypt    Africa  1952  41.89300    22223309    1418.822445       EGY      818
+457                      Egypt    Africa  1957  44.44400    25009741    1458.915272       EGY      818
+458                      Egypt    Africa  1962  46.99200    28173309    1693.335853       EGY      818
+459                      Egypt    Africa  1967  49.29300    31681188    1814.880728       EGY      818
+460                      Egypt    Africa  1972  51.13700    34807417    2024.008147       EGY      818
+461                      Egypt    Africa  1977  53.31900    38783863    2785.493582       EGY      818
+462                      Egypt    Africa  1982  56.00600    45681811    3503.729636       EGY      818
+463                      Egypt    Africa  1987  59.79700    52799062    3885.460710       EGY      818
+464                      Egypt    Africa  1992  63.67400    59402198    3794.755195       EGY      818
+465                      Egypt    Africa  1997  67.21700    66134291    4173.181797       EGY      818
+466                      Egypt    Africa  2002  69.80600    73312559    4754.604414       EGY      818
+467                      Egypt    Africa  2007  71.33800    80264543    5581.180998       EGY      818
+468                El Salvador  Americas  1952  45.26200     2042865    3048.302900       SLV      222
+469                El Salvador  Americas  1957  48.57000     2355805    3421.523218       SLV      222
+470                El Salvador  Americas  1962  52.30700     2747687    3776.803627       SLV      222
+471                El Salvador  Americas  1967  55.85500     3232927    4358.595393       SLV      222
+472                El Salvador  Americas  1972  58.20700     3790903    4520.246008       SLV      222
+473                El Salvador  Americas  1977  56.69600     4282586    5138.922374       SLV      222
+474                El Salvador  Americas  1982  56.60400     4474873    4098.344175       SLV      222
+475                El Salvador  Americas  1987  63.15400     4842194    4140.442097       SLV      222
+476                El Salvador  Americas  1992  66.79800     5274649    4444.231700       SLV      222
+477                El Salvador  Americas  1997  69.53500     5783439    5154.825496       SLV      222
+478                El Salvador  Americas  2002  70.73400     6353681    5351.568666       SLV      222
+479                El Salvador  Americas  2007  71.87800     6939688    5728.353514       SLV      222
+480          Equatorial Guinea    Africa  1952  34.48200      216964     375.643123       GNQ      226
+481          Equatorial Guinea    Africa  1957  35.98300      232922     426.096408       GNQ      226
+482          Equatorial Guinea    Africa  1962  37.48500      249220     582.841971       GNQ      226
+483          Equatorial Guinea    Africa  1967  38.98700      259864     915.596003       GNQ      226
+484          Equatorial Guinea    Africa  1972  40.51600      277603     672.412257       GNQ      226
+485          Equatorial Guinea    Africa  1977  42.02400      192675     958.566812       GNQ      226
+486          Equatorial Guinea    Africa  1982  43.66200      285483     927.825343       GNQ      226
+487          Equatorial Guinea    Africa  1987  45.66400      341244     966.896815       GNQ      226
+488          Equatorial Guinea    Africa  1992  47.54500      387838    1132.055034       GNQ      226
+489          Equatorial Guinea    Africa  1997  48.24500      439971    2814.480755       GNQ      226
+490          Equatorial Guinea    Africa  2002  49.34800      495627    7703.495900       GNQ      226
+491          Equatorial Guinea    Africa  2007  51.57900      551201   12154.089750       GNQ      226
+492                    Eritrea    Africa  1952  35.92800     1438760     328.940557       ERI      232
+493                    Eritrea    Africa  1957  38.04700     1542611     344.161886       ERI      232
+494                    Eritrea    Africa  1962  40.15800     1666618     380.995843       ERI      232
+495                    Eritrea    Africa  1967  42.18900     1820319     468.794970       ERI      232
+496                    Eritrea    Africa  1972  44.14200     2260187     514.324208       ERI      232
+497                    Eritrea    Africa  1977  44.53500     2512642     505.753808       ERI      232
+498                    Eritrea    Africa  1982  43.89000     2637297     524.875849       ERI      232
+499                    Eritrea    Africa  1987  46.45300     2915959     521.134133       ERI      232
+500                    Eritrea    Africa  1992  49.99100     3668440     582.858510       ERI      232
+501                    Eritrea    Africa  1997  53.37800     4058319     913.470790       ERI      232
+502                    Eritrea    Africa  2002  55.24000     4414865     765.350001       ERI      232
+503                    Eritrea    Africa  2007  58.04000     4906585     641.369524       ERI      232
+504                   Ethiopia    Africa  1952  34.07800    20860941     362.146280       ETH      231
+505                   Ethiopia    Africa  1957  36.66700    22815614     378.904163       ETH      231
+506                   Ethiopia    Africa  1962  40.05900    25145372     419.456416       ETH      231
+507                   Ethiopia    Africa  1967  42.11500    27860297     516.118644       ETH      231
+508                   Ethiopia    Africa  1972  43.51500    30770372     566.243944       ETH      231
+509                   Ethiopia    Africa  1977  44.51000    34617799     556.808383       ETH      231
+510                   Ethiopia    Africa  1982  44.91600    38111756     577.860747       ETH      231
+511                   Ethiopia    Africa  1987  46.68400    42999530     573.741314       ETH      231
+512                   Ethiopia    Africa  1992  48.09100    52088559     421.353465       ETH      231
+513                   Ethiopia    Africa  1997  49.40200    59861301     515.889401       ETH      231
+514                   Ethiopia    Africa  2002  50.72500    67946797     530.053532       ETH      231
+515                   Ethiopia    Africa  2007  52.94700    76511887     690.805576       ETH      231
+516                    Finland    Europe  1952  66.55000     4090500    6424.519071       FIN      246
+517                    Finland    Europe  1957  67.49000     4324000    7545.415386       FIN      246
+518                    Finland    Europe  1962  68.75000     4491443    9371.842561       FIN      246
+519                    Finland    Europe  1967  69.83000     4605744   10921.636260       FIN      246
+520                    Finland    Europe  1972  70.87000     4639657   14358.875900       FIN      246
+521                    Finland    Europe  1977  72.52000     4738902   15605.422830       FIN      246
+522                    Finland    Europe  1982  74.55000     4826933   18533.157610       FIN      246
+523                    Finland    Europe  1987  74.83000     4931729   21141.012230       FIN      246
+524                    Finland    Europe  1992  75.70000     5041039   20647.164990       FIN      246
+525                    Finland    Europe  1997  77.13000     5134406   23723.950200       FIN      246
+526                    Finland    Europe  2002  78.37000     5193039   28204.590570       FIN      246
+527                    Finland    Europe  2007  79.31300     5238460   33207.084400       FIN      246
+528                     France    Europe  1952  67.41000    42459667    7029.809327       FRA      250
+529                     France    Europe  1957  68.93000    44310863    8662.834898       FRA      250
+530                     France    Europe  1962  70.51000    47124000   10560.485530       FRA      250
+531                     France    Europe  1967  71.55000    49569000   12999.917660       FRA      250
+532                     France    Europe  1972  72.38000    51732000   16107.191710       FRA      250
+533                     France    Europe  1977  73.83000    53165019   18292.635140       FRA      250
+534                     France    Europe  1982  74.89000    54433565   20293.897460       FRA      250
+535                     France    Europe  1987  76.34000    55630100   22066.442140       FRA      250
+536                     France    Europe  1992  77.46000    57374179   24703.796150       FRA      250
+537                     France    Europe  1997  78.64000    58623428   25889.784870       FRA      250
+538                     France    Europe  2002  79.59000    59925035   28926.032340       FRA      250
+539                     France    Europe  2007  80.65700    61083916   30470.016700       FRA      250
+540                      Gabon    Africa  1952  37.00300      420702    4293.476475       GAB      266
+541                      Gabon    Africa  1957  38.99900      434904    4976.198099       GAB      266
+542                      Gabon    Africa  1962  40.48900      455661    6631.459222       GAB      266
+543                      Gabon    Africa  1967  44.59800      489004    8358.761987       GAB      266
+544                      Gabon    Africa  1972  48.69000      537977   11401.948410       GAB      266
+545                      Gabon    Africa  1977  52.79000      706367   21745.573280       GAB      266
+546                      Gabon    Africa  1982  56.56400      753874   15113.361940       GAB      266
+547                      Gabon    Africa  1987  60.19000      880397   11864.408440       GAB      266
+548                      Gabon    Africa  1992  61.36600      985739   13522.157520       GAB      266
+549                      Gabon    Africa  1997  60.46100     1126189   14722.841880       GAB      266
+550                      Gabon    Africa  2002  56.76100     1299304   12521.713920       GAB      266
+551                      Gabon    Africa  2007  56.73500     1454867   13206.484520       GAB      266
+552                     Gambia    Africa  1952  30.00000      284320     485.230659       GMB      270
+553                     Gambia    Africa  1957  32.06500      323150     520.926711       GMB      270
+554                     Gambia    Africa  1962  33.89600      374020     599.650276       GMB      270
+555                     Gambia    Africa  1967  35.85700      439593     734.782912       GMB      270
+556                     Gambia    Africa  1972  38.30800      517101     756.086836       GMB      270
+557                     Gambia    Africa  1977  41.84200      608274     884.755251       GMB      270
+558                     Gambia    Africa  1982  45.58000      715523     835.809611       GMB      270
+559                     Gambia    Africa  1987  49.26500      848406     611.658861       GMB      270
+560                     Gambia    Africa  1992  52.64400     1025384     665.624413       GMB      270
+561                     Gambia    Africa  1997  55.86100     1235767     653.730170       GMB      270
+562                     Gambia    Africa  2002  58.04100     1457766     660.585600       GMB      270
+563                     Gambia    Africa  2007  59.44800     1688359     752.749726       GMB      270
+564                    Germany    Europe  1952  67.50000    69145952    7144.114393       DEU      276
+565                    Germany    Europe  1957  69.10000    71019069   10187.826650       DEU      276
+566                    Germany    Europe  1962  70.30000    73739117   12902.462910       DEU      276
+567                    Germany    Europe  1967  70.80000    76368453   14745.625610       DEU      276
+568                    Germany    Europe  1972  71.00000    78717088   18016.180270       DEU      276
+569                    Germany    Europe  1977  72.50000    78160773   20512.921230       DEU      276
+570                    Germany    Europe  1982  73.80000    78335266   22031.532740       DEU      276
+571                    Germany    Europe  1987  74.84700    77718298   24639.185660       DEU      276
+572                    Germany    Europe  1992  76.07000    80597764   26505.303170       DEU      276
+573                    Germany    Europe  1997  77.34000    82011073   27788.884160       DEU      276
+574                    Germany    Europe  2002  78.67000    82350671   30035.801980       DEU      276
+575                    Germany    Europe  2007  79.40600    82400996   32170.374420       DEU      276
+576                      Ghana    Africa  1952  43.14900     5581001     911.298937       GHA      288
+577                      Ghana    Africa  1957  44.77900     6391288    1043.561537       GHA      288
+578                      Ghana    Africa  1962  46.45200     7355248    1190.041118       GHA      288
+579                      Ghana    Africa  1967  48.07200     8490213    1125.697160       GHA      288
+580                      Ghana    Africa  1972  49.87500     9354120    1178.223708       GHA      288
+581                      Ghana    Africa  1977  51.75600    10538093     993.223957       GHA      288
+582                      Ghana    Africa  1982  53.74400    11400338     876.032569       GHA      288
+583                      Ghana    Africa  1987  55.72900    14168101     847.006113       GHA      288
+584                      Ghana    Africa  1992  57.50100    16278738     925.060154       GHA      288
+585                      Ghana    Africa  1997  58.55600    18418288    1005.245812       GHA      288
+586                      Ghana    Africa  2002  58.45300    20550751    1111.984578       GHA      288
+587                      Ghana    Africa  2007  60.02200    22873338    1327.608910       GHA      288
+588                     Greece    Europe  1952  65.86000     7733250    3530.690067       GRC      300
+589                     Greece    Europe  1957  67.86000     8096218    4916.299889       GRC      300
+590                     Greece    Europe  1962  69.51000     8448233    6017.190733       GRC      300
+591                     Greece    Europe  1967  71.00000     8716441    8513.097016       GRC      300
+592                     Greece    Europe  1972  72.34000     8888628   12724.829570       GRC      300
+593                     Greece    Europe  1977  73.68000     9308479   14195.524280       GRC      300
+594                     Greece    Europe  1982  75.24000     9786480   15268.420890       GRC      300
+595                     Greece    Europe  1987  76.67000     9974490   16120.528390       GRC      300
+596                     Greece    Europe  1992  77.03000    10325429   17541.496340       GRC      300
+597                     Greece    Europe  1997  77.86900    10502372   18747.698140       GRC      300
+598                     Greece    Europe  2002  78.25600    10603863   22514.254800       GRC      300
+599                     Greece    Europe  2007  79.48300    10706290   27538.411880       GRC      300
+600                  Guatemala  Americas  1952  42.02300     3146381    2428.237769       GTM      320
+601                  Guatemala  Americas  1957  44.14200     3640876    2617.155967       GTM      320
+602                  Guatemala  Americas  1962  46.95400     4208858    2750.364446       GTM      320
+603                  Guatemala  Americas  1967  50.01600     4690773    3242.531147       GTM      320
+604                  Guatemala  Americas  1972  53.73800     5149581    4031.408271       GTM      320
+605                  Guatemala  Americas  1977  56.02900     5703430    4879.992748       GTM      320
+606                  Guatemala  Americas  1982  58.13700     6395630    4820.494790       GTM      320
+607                  Guatemala  Americas  1987  60.78200     7326406    4246.485974       GTM      320
+608                  Guatemala  Americas  1992  63.37300     8486949    4439.450840       GTM      320
+609                  Guatemala  Americas  1997  66.32200     9803875    4684.313807       GTM      320
+610                  Guatemala  Americas  2002  68.97800    11178650    4858.347495       GTM      320
+611                  Guatemala  Americas  2007  70.25900    12572928    5186.050003       GTM      320
+612                     Guinea    Africa  1952  33.60900     2664249     510.196492       GIN      324
+613                     Guinea    Africa  1957  34.55800     2876726     576.267025       GIN      324
+614                     Guinea    Africa  1962  35.75300     3140003     686.373674       GIN      324
+615                     Guinea    Africa  1967  37.19700     3451418     708.759541       GIN      324
+616                     Guinea    Africa  1972  38.84200     3811387     741.666231       GIN      324
+617                     Guinea    Africa  1977  40.76200     4227026     874.685864       GIN      324
+618                     Guinea    Africa  1982  42.89100     4710497     857.250358       GIN      324
+619                     Guinea    Africa  1987  45.55200     5650262     805.572472       GIN      324
+620                     Guinea    Africa  1992  48.57600     6990574     794.348438       GIN      324
+621                     Guinea    Africa  1997  51.45500     8048834     869.449767       GIN      324
+622                     Guinea    Africa  2002  53.67600     8807818     945.583584       GIN      324
+623                     Guinea    Africa  2007  56.00700     9947814     942.654211       GIN      324
+624              Guinea-Bissau    Africa  1952  32.50000      580653     299.850319       GNB      624
+625              Guinea-Bissau    Africa  1957  33.48900      601095     431.790457       GNB      624
+626              Guinea-Bissau    Africa  1962  34.48800      627820     522.034373       GNB      624
+627              Guinea-Bissau    Africa  1967  35.49200      601287     715.580640       GNB      624
+628              Guinea-Bissau    Africa  1972  36.48600      625361     820.224588       GNB      624
+629              Guinea-Bissau    Africa  1977  37.46500      745228     764.725963       GNB      624
+630              Guinea-Bissau    Africa  1982  39.32700      825987     838.123967       GNB      624
+631              Guinea-Bissau    Africa  1987  41.24500      927524     736.415392       GNB      624
+632              Guinea-Bissau    Africa  1992  43.26600     1050938     745.539871       GNB      624
+633              Guinea-Bissau    Africa  1997  44.87300     1193708     796.664468       GNB      624
+634              Guinea-Bissau    Africa  2002  45.50400     1332459     575.704718       GNB      624
+635              Guinea-Bissau    Africa  2007  46.38800     1472041     579.231743       GNB      624
+636                      Haiti  Americas  1952  37.57900     3201488    1840.366939       HTI      332
+637                      Haiti  Americas  1957  40.69600     3507701    1726.887882       HTI      332
+638                      Haiti  Americas  1962  43.59000     3880130    1796.589032       HTI      332
+639                      Haiti  Americas  1967  46.24300     4318137    1452.057666       HTI      332
+640                      Haiti  Americas  1972  48.04200     4698301    1654.456946       HTI      332
+641                      Haiti  Americas  1977  49.92300     4908554    1874.298931       HTI      332
+642                      Haiti  Americas  1982  51.46100     5198399    2011.159549       HTI      332
+643                      Haiti  Americas  1987  53.63600     5756203    1823.015995       HTI      332
+644                      Haiti  Americas  1992  55.08900     6326682    1456.309517       HTI      332
+645                      Haiti  Americas  1997  56.67100     6913545    1341.726931       HTI      332
+646                      Haiti  Americas  2002  58.13700     7607651    1270.364932       HTI      332
+647                      Haiti  Americas  2007  60.91600     8502814    1201.637154       HTI      332
+648                   Honduras  Americas  1952  41.91200     1517453    2194.926204       HND      340
+649                   Honduras  Americas  1957  44.66500     1770390    2220.487682       HND      340
+650                   Honduras  Americas  1962  48.04100     2090162    2291.156835       HND      340
+651                   Honduras  Americas  1967  50.92400     2500689    2538.269358       HND      340
+652                   Honduras  Americas  1972  53.88400     2965146    2529.842345       HND      340
+653                   Honduras  Americas  1977  57.40200     3055235    3203.208066       HND      340
+654                   Honduras  Americas  1982  60.90900     3669448    3121.760794       HND      340
+655                   Honduras  Americas  1987  64.49200     4372203    3023.096699       HND      340
+656                   Honduras  Americas  1992  66.39900     5077347    3081.694603       HND      340
+657                   Honduras  Americas  1997  67.65900     5867957    3160.454906       HND      340
+658                   Honduras  Americas  2002  68.56500     6677328    3099.728660       HND      340
+659                   Honduras  Americas  2007  70.19800     7483763    3548.330846       HND      340
+660           Hong Kong, China      Asia  1952  60.96000     2125900    3054.421209       HKG      344
+661           Hong Kong, China      Asia  1957  64.75000     2736300    3629.076457       HKG      344
+662           Hong Kong, China      Asia  1962  67.65000     3305200    4692.648272       HKG      344
+663           Hong Kong, China      Asia  1967  70.00000     3722800    6197.962814       HKG      344
+664           Hong Kong, China      Asia  1972  72.00000     4115700    8315.928145       HKG      344
+665           Hong Kong, China      Asia  1977  73.60000     4583700   11186.141250       HKG      344
+666           Hong Kong, China      Asia  1982  75.45000     5264500   14560.530510       HKG      344
+667           Hong Kong, China      Asia  1987  76.20000     5584510   20038.472690       HKG      344
+668           Hong Kong, China      Asia  1992  77.60100     5829696   24757.603010       HKG      344
+669           Hong Kong, China      Asia  1997  80.00000     6495918   28377.632190       HKG      344
+670           Hong Kong, China      Asia  2002  81.49500     6762476   30209.015160       HKG      344
+671           Hong Kong, China      Asia  2007  82.20800     6980412   39724.978670       HKG      344
+672                    Hungary    Europe  1952  64.03000     9504000    5263.673816       HUN      348
+673                    Hungary    Europe  1957  66.41000     9839000    6040.180011       HUN      348
+674                    Hungary    Europe  1962  67.96000    10063000    7550.359877       HUN      348
+675                    Hungary    Europe  1967  69.50000    10223422    9326.644670       HUN      348
+676                    Hungary    Europe  1972  69.76000    10394091   10168.656110       HUN      348
+677                    Hungary    Europe  1977  69.95000    10637171   11674.837370       HUN      348
+678                    Hungary    Europe  1982  69.39000    10705535   12545.990660       HUN      348
+679                    Hungary    Europe  1987  69.58000    10612740   12986.479980       HUN      348
+680                    Hungary    Europe  1992  69.17000    10348684   10535.628550       HUN      348
+681                    Hungary    Europe  1997  71.04000    10244684   11712.776800       HUN      348
+682                    Hungary    Europe  2002  72.59000    10083313   14843.935560       HUN      348
+683                    Hungary    Europe  2007  73.33800     9956108   18008.944440       HUN      348
+684                    Iceland    Europe  1952  72.49000      147962    7267.688428       ISL      352
+685                    Iceland    Europe  1957  73.47000      165110    9244.001412       ISL      352
+686                    Iceland    Europe  1962  73.68000      182053   10350.159060       ISL      352
+687                    Iceland    Europe  1967  73.73000      198676   13319.895680       ISL      352
+688                    Iceland    Europe  1972  74.46000      209275   15798.063620       ISL      352
+689                    Iceland    Europe  1977  76.11000      221823   19654.962470       ISL      352
+690                    Iceland    Europe  1982  76.99000      233997   23269.607500       ISL      352
+691                    Iceland    Europe  1987  77.23000      244676   26923.206280       ISL      352
+692                    Iceland    Europe  1992  78.77000      259012   25144.392010       ISL      352
+693                    Iceland    Europe  1997  78.95000      271192   28061.099660       ISL      352
+694                    Iceland    Europe  2002  80.50000      288030   31163.201960       ISL      352
+695                    Iceland    Europe  2007  81.75700      301931   36180.789190       ISL      352
+696                      India      Asia  1952  37.37300   372000000     546.565749       IND      356
+697                      India      Asia  1957  40.24900   409000000     590.061996       IND      356
+698                      India      Asia  1962  43.60500   454000000     658.347151       IND      356
+699                      India      Asia  1967  47.19300   506000000     700.770611       IND      356
+700                      India      Asia  1972  50.65100   567000000     724.032527       IND      356
+701                      India      Asia  1977  54.20800   634000000     813.337323       IND      356
+702                      India      Asia  1982  56.59600   708000000     855.723538       IND      356
+703                      India      Asia  1987  58.55300   788000000     976.512676       IND      356
+704                      India      Asia  1992  60.22300   872000000    1164.406809       IND      356
+705                      India      Asia  1997  61.76500   959000000    1458.817442       IND      356
+706                      India      Asia  2002  62.87900  1034172547    1746.769454       IND      356
+707                      India      Asia  2007  64.69800  1110396331    2452.210407       IND      356
+708                  Indonesia      Asia  1952  37.46800    82052000     749.681655       IDN      360
+709                  Indonesia      Asia  1957  39.91800    90124000     858.900271       IDN      360
+710                  Indonesia      Asia  1962  42.51800    99028000     849.289770       IDN      360
+711                  Indonesia      Asia  1967  45.96400   109343000     762.431772       IDN      360
+712                  Indonesia      Asia  1972  49.20300   121282000    1111.107907       IDN      360
+713                  Indonesia      Asia  1977  52.70200   136725000    1382.702056       IDN      360
+714                  Indonesia      Asia  1982  56.15900   153343000    1516.872988       IDN      360
+715                  Indonesia      Asia  1987  60.13700   169276000    1748.356961       IDN      360
+716                  Indonesia      Asia  1992  62.68100   184816000    2383.140898       IDN      360
+717                  Indonesia      Asia  1997  66.04100   199278000    3119.335603       IDN      360
+718                  Indonesia      Asia  2002  68.58800   211060000    2873.912870       IDN      360
+719                  Indonesia      Asia  2007  70.65000   223547000    3540.651564       IDN      360
+720                       Iran      Asia  1952  44.86900    17272000    3035.326002       IRN      364
+721                       Iran      Asia  1957  47.18100    19792000    3290.257643       IRN      364
+722                       Iran      Asia  1962  49.32500    22874000    4187.329802       IRN      364
+723                       Iran      Asia  1967  52.46900    26538000    5906.731805       IRN      364
+724                       Iran      Asia  1972  55.23400    30614000    9613.818607       IRN      364
+725                       Iran      Asia  1977  57.70200    35480679   11888.595080       IRN      364
+726                       Iran      Asia  1982  59.62000    43072751    7608.334602       IRN      364
+727                       Iran      Asia  1987  63.04000    51889696    6642.881371       IRN      364
+728                       Iran      Asia  1992  65.74200    60397973    7235.653188       IRN      364
+729                       Iran      Asia  1997  68.04200    63327987    8263.590301       IRN      364
+730                       Iran      Asia  2002  69.45100    66907826    9240.761975       IRN      364
+731                       Iran      Asia  2007  70.96400    69453570   11605.714490       IRN      364
+732                       Iraq      Asia  1952  45.32000     5441766    4129.766056       IRQ      368
+733                       Iraq      Asia  1957  48.43700     6248643    6229.333562       IRQ      368
+734                       Iraq      Asia  1962  51.45700     7240260    8341.737815       IRQ      368
+735                       Iraq      Asia  1967  54.45900     8519282    8931.459811       IRQ      368
+736                       Iraq      Asia  1972  56.95000    10061506    9576.037596       IRQ      368
+737                       Iraq      Asia  1977  60.41300    11882916   14688.235070       IRQ      368
+738                       Iraq      Asia  1982  62.03800    14173318   14517.907110       IRQ      368
+739                       Iraq      Asia  1987  65.04400    16543189   11643.572680       IRQ      368
+740                       Iraq      Asia  1992  59.46100    17861905    3745.640687       IRQ      368
+741                       Iraq      Asia  1997  58.81100    20775703    3076.239795       IRQ      368
+742                       Iraq      Asia  2002  57.04600    24001816    4390.717312       IRQ      368
+743                       Iraq      Asia  2007  59.54500    27499638    4471.061906       IRQ      368
+744                    Ireland    Europe  1952  66.91000     2952156    5210.280328       IRL      372
+745                    Ireland    Europe  1957  68.90000     2878220    5599.077872       IRL      372
+746                    Ireland    Europe  1962  70.29000     2830000    6631.597314       IRL      372
+747                    Ireland    Europe  1967  71.08000     2900100    7655.568963       IRL      372
+748                    Ireland    Europe  1972  71.28000     3024400    9530.772896       IRL      372
+749                    Ireland    Europe  1977  72.03000     3271900   11150.981130       IRL      372
+750                    Ireland    Europe  1982  73.10000     3480000   12618.321410       IRL      372
+751                    Ireland    Europe  1987  74.36000     3539900   13872.866520       IRL      372
+752                    Ireland    Europe  1992  75.46700     3557761   17558.815550       IRL      372
+753                    Ireland    Europe  1997  76.12200     3667233   24521.947130       IRL      372
+754                    Ireland    Europe  2002  77.78300     3879155   34077.049390       IRL      372
+755                    Ireland    Europe  2007  78.88500     4109086   40675.996350       IRL      372
+756                     Israel      Asia  1952  65.39000     1620914    4086.522128       ISR      376
+757                     Israel      Asia  1957  67.84000     1944401    5385.278451       ISR      376
+758                     Israel      Asia  1962  69.39000     2310904    7105.630706       ISR      376
+759                     Israel      Asia  1967  70.75000     2693585    8393.741404       ISR      376
+760                     Israel      Asia  1972  71.63000     3095893   12786.932230       ISR      376
+761                     Israel      Asia  1977  73.06000     3495918   13306.619210       ISR      376
+762                     Israel      Asia  1982  74.45000     3858421   15367.029200       ISR      376
+763                     Israel      Asia  1987  75.60000     4203148   17122.479860       ISR      376
+764                     Israel      Asia  1992  76.93000     4936550   18051.522540       ISR      376
+765                     Israel      Asia  1997  78.26900     5531387   20896.609240       ISR      376
+766                     Israel      Asia  2002  79.69600     6029529   21905.595140       ISR      376
+767                     Israel      Asia  2007  80.74500     6426679   25523.277100       ISR      376
+768                      Italy    Europe  1952  65.94000    47666000    4931.404155       ITA      380
+769                      Italy    Europe  1957  67.81000    49182000    6248.656232       ITA      380
+770                      Italy    Europe  1962  69.24000    50843200    8243.582340       ITA      380
+771                      Italy    Europe  1967  71.06000    52667100   10022.401310       ITA      380
+772                      Italy    Europe  1972  72.19000    54365564   12269.273780       ITA      380
+773                      Italy    Europe  1977  73.48000    56059245   14255.984750       ITA      380
+774                      Italy    Europe  1982  74.98000    56535636   16537.483500       ITA      380
+775                      Italy    Europe  1987  76.42000    56729703   19207.234820       ITA      380
+776                      Italy    Europe  1992  77.44000    56840847   22013.644860       ITA      380
+777                      Italy    Europe  1997  78.82000    57479469   24675.024460       ITA      380
+778                      Italy    Europe  2002  80.24000    57926999   27968.098170       ITA      380
+779                      Italy    Europe  2007  80.54600    58147733   28569.719700       ITA      380
+780                    Jamaica  Americas  1952  58.53000     1426095    2898.530881       JAM      388
+781                    Jamaica  Americas  1957  62.61000     1535090    4756.525781       JAM      388
+782                    Jamaica  Americas  1962  65.61000     1665128    5246.107524       JAM      388
+783                    Jamaica  Americas  1967  67.51000     1861096    6124.703451       JAM      388
+784                    Jamaica  Americas  1972  69.00000     1997616    7433.889293       JAM      388
+785                    Jamaica  Americas  1977  70.11000     2156814    6650.195573       JAM      388
+786                    Jamaica  Americas  1982  71.21000     2298309    6068.051350       JAM      388
+787                    Jamaica  Americas  1987  71.77000     2326606    6351.237495       JAM      388
+788                    Jamaica  Americas  1992  71.76600     2378618    7404.923685       JAM      388
+789                    Jamaica  Americas  1997  72.26200     2531311    7121.924704       JAM      388
+790                    Jamaica  Americas  2002  72.04700     2664659    6994.774861       JAM      388
+791                    Jamaica  Americas  2007  72.56700     2780132    7320.880262       JAM      388
+792                      Japan      Asia  1952  63.03000    86459025    3216.956347       JPN      392
+793                      Japan      Asia  1957  65.50000    91563009    4317.694365       JPN      392
+794                      Japan      Asia  1962  68.73000    95831757    6576.649461       JPN      392
+795                      Japan      Asia  1967  71.43000   100825279    9847.788607       JPN      392
+796                      Japan      Asia  1972  73.42000   107188273   14778.786360       JPN      392
+797                      Japan      Asia  1977  75.38000   113872473   16610.377010       JPN      392
+798                      Japan      Asia  1982  77.11000   118454974   19384.105710       JPN      392
+799                      Japan      Asia  1987  78.67000   122091325   22375.941890       JPN      392
+800                      Japan      Asia  1992  79.36000   124329269   26824.895110       JPN      392
+801                      Japan      Asia  1997  80.69000   125956499   28816.584990       JPN      392
+802                      Japan      Asia  2002  82.00000   127065841   28604.591900       JPN      392
+803                      Japan      Asia  2007  82.60300   127467972   31656.068060       JPN      392
+804                     Jordan      Asia  1952  43.15800      607914    1546.907807       JOR      400
+805                     Jordan      Asia  1957  45.66900      746559    1886.080591       JOR      400
+806                     Jordan      Asia  1962  48.12600      933559    2348.009158       JOR      400
+807                     Jordan      Asia  1967  51.62900     1255058    2741.796252       JOR      400
+808                     Jordan      Asia  1972  56.52800     1613551    2110.856309       JOR      400
+809                     Jordan      Asia  1977  61.13400     1937652    2852.351568       JOR      400
+810                     Jordan      Asia  1982  63.73900     2347031    4161.415959       JOR      400
+811                     Jordan      Asia  1987  65.86900     2820042    4448.679912       JOR      400
+812                     Jordan      Asia  1992  68.01500     3867409    3431.593647       JOR      400
+813                     Jordan      Asia  1997  69.77200     4526235    3645.379572       JOR      400
+814                     Jordan      Asia  2002  71.26300     5307470    3844.917194       JOR      400
+815                     Jordan      Asia  2007  72.53500     6053193    4519.461171       JOR      400
+816                      Kenya    Africa  1952  42.27000     6464046     853.540919       KEN      404
+817                      Kenya    Africa  1957  44.68600     7454779     944.438315       KEN      404
+818                      Kenya    Africa  1962  47.94900     8678557     896.966373       KEN      404
+819                      Kenya    Africa  1967  50.65400    10191512    1056.736457       KEN      404
+820                      Kenya    Africa  1972  53.55900    12044785    1222.359968       KEN      404
+821                      Kenya    Africa  1977  56.15500    14500404    1267.613204       KEN      404
+822                      Kenya    Africa  1982  58.76600    17661452    1348.225791       KEN      404
+823                      Kenya    Africa  1987  59.33900    21198082    1361.936856       KEN      404
+824                      Kenya    Africa  1992  59.28500    25020539    1341.921721       KEN      404
+825                      Kenya    Africa  1997  54.40700    28263827    1360.485021       KEN      404
+826                      Kenya    Africa  2002  50.99200    31386842    1287.514732       KEN      404
+827                      Kenya    Africa  2007  54.11000    35610177    1463.249282       KEN      404
+828           Korea, Dem. Rep.      Asia  1952  50.05600     8865488    1088.277758       KOR      410
+829           Korea, Dem. Rep.      Asia  1957  54.08100     9411381    1571.134655       KOR      410
+830           Korea, Dem. Rep.      Asia  1962  56.65600    10917494    1621.693598       KOR      410
+831           Korea, Dem. Rep.      Asia  1967  59.94200    12617009    2143.540609       KOR      410
+832           Korea, Dem. Rep.      Asia  1972  63.98300    14781241    3701.621503       KOR      410
+833           Korea, Dem. Rep.      Asia  1977  67.15900    16325320    4106.301249       KOR      410
+834           Korea, Dem. Rep.      Asia  1982  69.10000    17647518    4106.525293       KOR      410
+835           Korea, Dem. Rep.      Asia  1987  70.64700    19067554    4106.492315       KOR      410
+836           Korea, Dem. Rep.      Asia  1992  69.97800    20711375    3726.063507       KOR      410
+837           Korea, Dem. Rep.      Asia  1997  67.72700    21585105    1690.756814       KOR      410
+838           Korea, Dem. Rep.      Asia  2002  66.66200    22215365    1646.758151       KOR      410
+839           Korea, Dem. Rep.      Asia  2007  67.29700    23301725    1593.065480       KOR      410
+840                Korea, Rep.      Asia  1952  47.45300    20947571    1030.592226       KOR      410
+841                Korea, Rep.      Asia  1957  52.68100    22611552    1487.593537       KOR      410
+842                Korea, Rep.      Asia  1962  55.29200    26420307    1536.344387       KOR      410
+843                Korea, Rep.      Asia  1967  57.71600    30131000    2029.228142       KOR      410
+844                Korea, Rep.      Asia  1972  62.61200    33505000    3030.876650       KOR      410
+845                Korea, Rep.      Asia  1977  64.76600    36436000    4657.221020       KOR      410
+846                Korea, Rep.      Asia  1982  67.12300    39326000    5622.942464       KOR      410
+847                Korea, Rep.      Asia  1987  69.81000    41622000    8533.088805       KOR      410
+848                Korea, Rep.      Asia  1992  72.24400    43805450   12104.278720       KOR      410
+849                Korea, Rep.      Asia  1997  74.64700    46173816   15993.527960       KOR      410
+850                Korea, Rep.      Asia  2002  77.04500    47969150   19233.988180       KOR      410
+851                Korea, Rep.      Asia  2007  78.62300    49044790   23348.139730       KOR      410
+852                     Kuwait      Asia  1952  55.56500      160000  108382.352900       KWT      414
+853                     Kuwait      Asia  1957  58.03300      212846  113523.132900       KWT      414
+854                     Kuwait      Asia  1962  60.47000      358266   95458.111760       KWT      414
+855                     Kuwait      Asia  1967  64.62400      575003   80894.883260       KWT      414
+856                     Kuwait      Asia  1972  67.71200      841934  109347.867000       KWT      414
+857                     Kuwait      Asia  1977  69.34300     1140357   59265.477140       KWT      414
+858                     Kuwait      Asia  1982  71.30900     1497494   31354.035730       KWT      414
+859                     Kuwait      Asia  1987  74.17400     1891487   28118.429980       KWT      414
+860                     Kuwait      Asia  1992  75.19000     1418095   34932.919590       KWT      414
+861                     Kuwait      Asia  1997  76.15600     1765345   40300.619960       KWT      414
+862                     Kuwait      Asia  2002  76.90400     2111561   35110.105660       KWT      414
+863                     Kuwait      Asia  2007  77.58800     2505559   47306.989780       KWT      414
+864                    Lebanon      Asia  1952  55.92800     1439529    4834.804067       LBN      422
+865                    Lebanon      Asia  1957  59.48900     1647412    6089.786934       LBN      422
+866                    Lebanon      Asia  1962  62.09400     1886848    5714.560611       LBN      422
+867                    Lebanon      Asia  1967  63.87000     2186894    6006.983042       LBN      422
+868                    Lebanon      Asia  1972  65.42100     2680018    7486.384341       LBN      422
+869                    Lebanon      Asia  1977  66.09900     3115787    8659.696836       LBN      422
+870                    Lebanon      Asia  1982  66.98300     3086876    7640.519521       LBN      422
+871                    Lebanon      Asia  1987  67.92600     3089353    5377.091329       LBN      422
+872                    Lebanon      Asia  1992  69.29200     3219994    6890.806854       LBN      422
+873                    Lebanon      Asia  1997  70.26500     3430388    8754.963850       LBN      422
+874                    Lebanon      Asia  2002  71.02800     3677780    9313.938830       LBN      422
+875                    Lebanon      Asia  2007  71.99300     3921278   10461.058680       LBN      422
+876                    Lesotho    Africa  1952  42.13800      748747     298.846212       LSO      426
+877                    Lesotho    Africa  1957  45.04700      813338     335.997115       LSO      426
+878                    Lesotho    Africa  1962  47.74700      893143     411.800627       LSO      426
+879                    Lesotho    Africa  1967  48.49200      996380     498.639026       LSO      426
+880                    Lesotho    Africa  1972  49.76700     1116779     496.581592       LSO      426
+881                    Lesotho    Africa  1977  52.20800     1251524     745.369541       LSO      426
+882                    Lesotho    Africa  1982  55.07800     1411807     797.263107       LSO      426
+883                    Lesotho    Africa  1987  57.18000     1599200     773.993214       LSO      426
+884                    Lesotho    Africa  1992  59.68500     1803195     977.486273       LSO      426
+885                    Lesotho    Africa  1997  55.55800     1982823    1186.147994       LSO      426
+886                    Lesotho    Africa  2002  44.59300     2046772    1275.184575       LSO      426
+887                    Lesotho    Africa  2007  42.59200     2012649    1569.331442       LSO      426
+888                    Liberia    Africa  1952  38.48000      863308     575.572996       LBR      430
+889                    Liberia    Africa  1957  39.48600      975950     620.969990       LBR      430
+890                    Liberia    Africa  1962  40.50200     1112796     634.195163       LBR      430
+891                    Liberia    Africa  1967  41.53600     1279406     713.603648       LBR      430
+892                    Liberia    Africa  1972  42.61400     1482628     803.005454       LBR      430
+893                    Liberia    Africa  1977  43.76400     1703617     640.322438       LBR      430
+894                    Liberia    Africa  1982  44.85200     1956875     572.199569       LBR      430
+895                    Liberia    Africa  1987  46.02700     2269414     506.113857       LBR      430
+896                    Liberia    Africa  1992  40.80200     1912974     636.622919       LBR      430
+897                    Liberia    Africa  1997  42.22100     2200725     609.173951       LBR      430
+898                    Liberia    Africa  2002  43.75300     2814651     531.482368       LBR      430
+899                    Liberia    Africa  2007  45.67800     3193942     414.507341       LBR      430
+900                      Libya    Africa  1952  42.72300     1019729    2387.548060       LBY      434
+901                      Libya    Africa  1957  45.28900     1201578    3448.284395       LBY      434
+902                      Libya    Africa  1962  47.80800     1441863    6757.030816       LBY      434
+903                      Libya    Africa  1967  50.22700     1759224   18772.751690       LBY      434
+904                      Libya    Africa  1972  52.77300     2183877   21011.497210       LBY      434
+905                      Libya    Africa  1977  57.44200     2721783   21951.211760       LBY      434
+906                      Libya    Africa  1982  62.15500     3344074   17364.275380       LBY      434
+907                      Libya    Africa  1987  66.23400     3799845   11770.589800       LBY      434
+908                      Libya    Africa  1992  68.75500     4364501    9640.138501       LBY      434
+909                      Libya    Africa  1997  71.55500     4759670    9467.446056       LBY      434
+910                      Libya    Africa  2002  72.73700     5368585    9534.677467       LBY      434
+911                      Libya    Africa  2007  73.95200     6036914   12057.499280       LBY      434
+912                 Madagascar    Africa  1952  36.68100     4762912    1443.011715       MDG      450
+913                 Madagascar    Africa  1957  38.86500     5181679    1589.202750       MDG      450
+914                 Madagascar    Africa  1962  40.84800     5703324    1643.387110       MDG      450
+915                 Madagascar    Africa  1967  42.88100     6334556    1634.047282       MDG      450
+916                 Madagascar    Africa  1972  44.85100     7082430    1748.562982       MDG      450
+917                 Madagascar    Africa  1977  46.88100     8007166    1544.228586       MDG      450
+918                 Madagascar    Africa  1982  48.96900     9171477    1302.878658       MDG      450
+919                 Madagascar    Africa  1987  49.35000    10568642    1155.441948       MDG      450
+920                 Madagascar    Africa  1992  52.21400    12210395    1040.676190       MDG      450
+921                 Madagascar    Africa  1997  54.97800    14165114     986.295896       MDG      450
+922                 Madagascar    Africa  2002  57.28600    16473477     894.637082       MDG      450
+923                 Madagascar    Africa  2007  59.44300    19167654    1044.770126       MDG      450
+924                     Malawi    Africa  1952  36.25600     2917802     369.165080       MWI      454
+925                     Malawi    Africa  1957  37.20700     3221238     416.369806       MWI      454
+926                     Malawi    Africa  1962  38.41000     3628608     427.901086       MWI      454
+927                     Malawi    Africa  1967  39.48700     4147252     495.514781       MWI      454
+928                     Malawi    Africa  1972  41.76600     4730997     584.621971       MWI      454
+929                     Malawi    Africa  1977  43.76700     5637246     663.223677       MWI      454
+930                     Malawi    Africa  1982  45.64200     6502825     632.803921       MWI      454
+931                     Malawi    Africa  1987  47.45700     7824747     635.517363       MWI      454
+932                     Malawi    Africa  1992  49.42000    10014249     563.200014       MWI      454
+933                     Malawi    Africa  1997  47.49500    10419991     692.275810       MWI      454
+934                     Malawi    Africa  2002  45.00900    11824495     665.423119       MWI      454
+935                     Malawi    Africa  2007  48.30300    13327079     759.349910       MWI      454
+936                   Malaysia      Asia  1952  48.46300     6748378    1831.132894       MYS      458
+937                   Malaysia      Asia  1957  52.10200     7739235    1810.066992       MYS      458
+938                   Malaysia      Asia  1962  55.73700     8906385    2036.884944       MYS      458
+939                   Malaysia      Asia  1967  59.37100    10154878    2277.742396       MYS      458
+940                   Malaysia      Asia  1972  63.01000    11441462    2849.094780       MYS      458
+941                   Malaysia      Asia  1977  65.25600    12845381    3827.921571       MYS      458
+942                   Malaysia      Asia  1982  68.00000    14441916    4920.355951       MYS      458
+943                   Malaysia      Asia  1987  69.50000    16331785    5249.802653       MYS      458
+944                   Malaysia      Asia  1992  70.69300    18319502    7277.912802       MYS      458
+945                   Malaysia      Asia  1997  71.93800    20476091   10132.909640       MYS      458
+946                   Malaysia      Asia  2002  73.04400    22662365   10206.977940       MYS      458
+947                   Malaysia      Asia  2007  74.24100    24821286   12451.655800       MYS      458
+948                       Mali    Africa  1952  33.68500     3838168     452.336981       MLI      466
+949                       Mali    Africa  1957  35.30700     4241884     490.382187       MLI      466
+950                       Mali    Africa  1962  36.93600     4690372     496.174343       MLI      466
+951                       Mali    Africa  1967  38.48700     5212416     545.009887       MLI      466
+952                       Mali    Africa  1972  39.97700     5828158     581.368876       MLI      466
+953                       Mali    Africa  1977  41.71400     6491649     686.395269       MLI      466
+954                       Mali    Africa  1982  43.91600     6998256     618.014064       MLI      466
+955                       Mali    Africa  1987  46.36400     7634008     684.171558       MLI      466
+956                       Mali    Africa  1992  48.38800     8416215     739.014375       MLI      466
+957                       Mali    Africa  1997  49.90300     9384984     790.257985       MLI      466
+958                       Mali    Africa  2002  51.81800    10580176     951.409752       MLI      466
+959                       Mali    Africa  2007  54.46700    12031795    1042.581557       MLI      466
+960                 Mauritania    Africa  1952  40.54300     1022556     743.115910       MRT      478
+961                 Mauritania    Africa  1957  42.33800     1076852     846.120261       MRT      478
+962                 Mauritania    Africa  1962  44.24800     1146757    1055.896036       MRT      478
+963                 Mauritania    Africa  1967  46.28900     1230542    1421.145193       MRT      478
+964                 Mauritania    Africa  1972  48.43700     1332786    1586.851781       MRT      478
+965                 Mauritania    Africa  1977  50.85200     1456688    1497.492223       MRT      478
+966                 Mauritania    Africa  1982  53.59900     1622136    1481.150189       MRT      478
+967                 Mauritania    Africa  1987  56.14500     1841240    1421.603576       MRT      478
+968                 Mauritania    Africa  1992  58.33300     2119465    1361.369784       MRT      478
+969                 Mauritania    Africa  1997  60.43000     2444741    1483.136136       MRT      478
+970                 Mauritania    Africa  2002  62.24700     2828858    1579.019543       MRT      478
+971                 Mauritania    Africa  2007  64.16400     3270065    1803.151496       MRT      478
+972                  Mauritius    Africa  1952  50.98600      516556    1967.955707       MUS      480
+973                  Mauritius    Africa  1957  58.08900      609816    2034.037981       MUS      480
+974                  Mauritius    Africa  1962  60.24600      701016    2529.067487       MUS      480
+975                  Mauritius    Africa  1967  61.55700      789309    2475.387562       MUS      480
+976                  Mauritius    Africa  1972  62.94400      851334    2575.484158       MUS      480
+977                  Mauritius    Africa  1977  64.93000      913025    3710.982963       MUS      480
+978                  Mauritius    Africa  1982  66.71100      992040    3688.037739       MUS      480
+979                  Mauritius    Africa  1987  68.74000     1042663    4783.586903       MUS      480
+980                  Mauritius    Africa  1992  69.74500     1096202    6058.253846       MUS      480
+981                  Mauritius    Africa  1997  70.73600     1149818    7425.705295       MUS      480
+982                  Mauritius    Africa  2002  71.95400     1200206    9021.815894       MUS      480
+983                  Mauritius    Africa  2007  72.80100     1250882   10956.991120       MUS      480
+984                     Mexico  Americas  1952  50.78900    30144317    3478.125529       MEX      484
+985                     Mexico  Americas  1957  55.19000    35015548    4131.546641       MEX      484
+986                     Mexico  Americas  1962  58.29900    41121485    4581.609385       MEX      484
+987                     Mexico  Americas  1967  60.11000    47995559    5754.733883       MEX      484
+988                     Mexico  Americas  1972  62.36100    55984294    6809.406690       MEX      484
+989                     Mexico  Americas  1977  65.03200    63759976    7674.929108       MEX      484
+990                     Mexico  Americas  1982  67.40500    71640904    9611.147541       MEX      484
+991                     Mexico  Americas  1987  69.49800    80122492    8688.156003       MEX      484
+992                     Mexico  Americas  1992  71.45500    88111030    9472.384295       MEX      484
+993                     Mexico  Americas  1997  73.67000    95895146    9767.297530       MEX      484
+994                     Mexico  Americas  2002  74.90200   102479927   10742.440530       MEX      484
+995                     Mexico  Americas  2007  76.19500   108700891   11977.574960       MEX      484
+996                   Mongolia      Asia  1952  42.24400      800663     786.566857       MNG      496
+997                   Mongolia      Asia  1957  45.24800      882134     912.662609       MNG      496
+998                   Mongolia      Asia  1962  48.25100     1010280    1056.353958       MNG      496
+999                   Mongolia      Asia  1967  51.25300     1149500    1226.041130       MNG      496
+1000                  Mongolia      Asia  1972  53.75400     1320500    1421.741975       MNG      496
+1001                  Mongolia      Asia  1977  55.49100     1528000    1647.511665       MNG      496
+1002                  Mongolia      Asia  1982  57.48900     1756032    2000.603139       MNG      496
+1003                  Mongolia      Asia  1987  60.22200     2015133    2338.008304       MNG      496
+1004                  Mongolia      Asia  1992  61.27100     2312802    1785.402016       MNG      496
+1005                  Mongolia      Asia  1997  63.62500     2494803    1902.252100       MNG      496
+1006                  Mongolia      Asia  2002  65.03300     2674234    2140.739323       MNG      496
+1007                  Mongolia      Asia  2007  66.80300     2874127    3095.772271       MNG      496
+1008                Montenegro    Europe  1952  59.16400      413834    2647.585601       MNE      499
+1009                Montenegro    Europe  1957  61.44800      442829    3682.259903       MNE      499
+1010                Montenegro    Europe  1962  63.72800      474528    4649.593785       MNE      499
+1011                Montenegro    Europe  1967  67.17800      501035    5907.850937       MNE      499
+1012                Montenegro    Europe  1972  70.63600      527678    7778.414017       MNE      499
+1013                Montenegro    Europe  1977  73.06600      560073    9595.929905       MNE      499
+1014                Montenegro    Europe  1982  74.10100      562548   11222.587620       MNE      499
+1015                Montenegro    Europe  1987  74.86500      569473   11732.510170       MNE      499
+1016                Montenegro    Europe  1992  75.43500      621621    7003.339037       MNE      499
+1017                Montenegro    Europe  1997  75.44500      692651    6465.613349       MNE      499
+1018                Montenegro    Europe  2002  73.98100      720230    6557.194282       MNE      499
+1019                Montenegro    Europe  2007  74.54300      684736    9253.896111       MNE      499
+1020                   Morocco    Africa  1952  42.87300     9939217    1688.203570       MAR      504
+1021                   Morocco    Africa  1957  45.42300    11406350    1642.002314       MAR      504
+1022                   Morocco    Africa  1962  47.92400    13056604    1566.353493       MAR      504
+1023                   Morocco    Africa  1967  50.33500    14770296    1711.044770       MAR      504
+1024                   Morocco    Africa  1972  52.86200    16660670    1930.194975       MAR      504
+1025                   Morocco    Africa  1977  55.73000    18396941    2370.619976       MAR      504
+1026                   Morocco    Africa  1982  59.65000    20198730    2702.620356       MAR      504
+1027                   Morocco    Africa  1987  62.67700    22987397    2755.046991       MAR      504
+1028                   Morocco    Africa  1992  65.39300    25798239    2948.047252       MAR      504
+1029                   Morocco    Africa  1997  67.66000    28529501    2982.101858       MAR      504
+1030                   Morocco    Africa  2002  69.61500    31167783    3258.495584       MAR      504
+1031                   Morocco    Africa  2007  71.16400    33757175    3820.175230       MAR      504
+1032                Mozambique    Africa  1952  31.28600     6446316     468.526038       MOZ      508
+1033                Mozambique    Africa  1957  33.77900     7038035     495.586833       MOZ      508
+1034                Mozambique    Africa  1962  36.16100     7788944     556.686354       MOZ      508
+1035                Mozambique    Africa  1967  38.11300     8680909     566.669154       MOZ      508
+1036                Mozambique    Africa  1972  40.32800     9809596     724.917804       MOZ      508
+1037                Mozambique    Africa  1977  42.49500    11127868     502.319733       MOZ      508
+1038                Mozambique    Africa  1982  42.79500    12587223     462.211415       MOZ      508
+1039                Mozambique    Africa  1987  42.86100    12891952     389.876185       MOZ      508
+1040                Mozambique    Africa  1992  44.28400    13160731     410.896824       MOZ      508
+1041                Mozambique    Africa  1997  46.34400    16603334     472.346077       MOZ      508
+1042                Mozambique    Africa  2002  44.02600    18473780     633.617947       MOZ      508
+1043                Mozambique    Africa  2007  42.08200    19951656     823.685621       MOZ      508
+1044                   Myanmar      Asia  1952  36.31900    20092996     331.000000       MMR      104
+1045                   Myanmar      Asia  1957  41.90500    21731844     350.000000       MMR      104
+1046                   Myanmar      Asia  1962  45.10800    23634436     388.000000       MMR      104
+1047                   Myanmar      Asia  1967  49.37900    25870271     349.000000       MMR      104
+1048                   Myanmar      Asia  1972  53.07000    28466390     357.000000       MMR      104
+1049                   Myanmar      Asia  1977  56.05900    31528087     371.000000       MMR      104
+1050                   Myanmar      Asia  1982  58.05600    34680442     424.000000       MMR      104
+1051                   Myanmar      Asia  1987  58.33900    38028578     385.000000       MMR      104
+1052                   Myanmar      Asia  1992  59.32000    40546538     347.000000       MMR      104
+1053                   Myanmar      Asia  1997  60.32800    43247867     415.000000       MMR      104
+1054                   Myanmar      Asia  2002  59.90800    45598081     611.000000       MMR      104
+1055                   Myanmar      Asia  2007  62.06900    47761980     944.000000       MMR      104
+1056                   Namibia    Africa  1952  41.72500      485831    2423.780443       NAM      516
+1057                   Namibia    Africa  1957  45.22600      548080    2621.448058       NAM      516
+1058                   Namibia    Africa  1962  48.38600      621392    3173.215595       NAM      516
+1059                   Namibia    Africa  1967  51.15900      706640    3793.694753       NAM      516
+1060                   Namibia    Africa  1972  53.86700      821782    3746.080948       NAM      516
+1061                   Namibia    Africa  1977  56.43700      977026    3876.485958       NAM      516
+1062                   Namibia    Africa  1982  58.96800     1099010    4191.100511       NAM      516
+1063                   Namibia    Africa  1987  60.83500     1278184    3693.731337       NAM      516
+1064                   Namibia    Africa  1992  61.99900     1554253    3804.537999       NAM      516
+1065                   Namibia    Africa  1997  58.90900     1774766    3899.524260       NAM      516
+1066                   Namibia    Africa  2002  51.47900     1972153    4072.324751       NAM      516
+1067                   Namibia    Africa  2007  52.90600     2055080    4811.060429       NAM      516
+1068                     Nepal      Asia  1952  36.15700     9182536     545.865723       NPL      524
+1069                     Nepal      Asia  1957  37.68600     9682338     597.936356       NPL      524
+1070                     Nepal      Asia  1962  39.39300    10332057     652.396859       NPL      524
+1071                     Nepal      Asia  1967  41.47200    11261690     676.442225       NPL      524
+1072                     Nepal      Asia  1972  43.97100    12412593     674.788130       NPL      524
+1073                     Nepal      Asia  1977  46.74800    13933198     694.112440       NPL      524
+1074                     Nepal      Asia  1982  49.59400    15796314     718.373095       NPL      524
+1075                     Nepal      Asia  1987  52.53700    17917180     775.632450       NPL      524
+1076                     Nepal      Asia  1992  55.72700    20326209     897.740360       NPL      524
+1077                     Nepal      Asia  1997  59.42600    23001113    1010.892138       NPL      524
+1078                     Nepal      Asia  2002  61.34000    25873917    1057.206311       NPL      524
+1079                     Nepal      Asia  2007  63.78500    28901790    1091.359778       NPL      524
+1080               Netherlands    Europe  1952  72.13000    10381988    8941.571858       NLD      528
+1081               Netherlands    Europe  1957  72.99000    11026383   11276.193440       NLD      528
+1082               Netherlands    Europe  1962  73.23000    11805689   12790.849560       NLD      528
+1083               Netherlands    Europe  1967  73.82000    12596822   15363.251360       NLD      528
+1084               Netherlands    Europe  1972  73.75000    13329874   18794.745670       NLD      528
+1085               Netherlands    Europe  1977  75.24000    13852989   21209.059200       NLD      528
+1086               Netherlands    Europe  1982  76.05000    14310401   21399.460460       NLD      528
+1087               Netherlands    Europe  1987  76.83000    14665278   23651.323610       NLD      528
+1088               Netherlands    Europe  1992  77.42000    15174244   26790.949610       NLD      528
+1089               Netherlands    Europe  1997  78.03000    15604464   30246.130630       NLD      528
+1090               Netherlands    Europe  2002  78.53000    16122830   33724.757780       NLD      528
+1091               Netherlands    Europe  2007  79.76200    16570613   36797.933320       NLD      528
+1092               New Zealand   Oceania  1952  69.39000     1994794   10556.575660       NZL      554
+1093               New Zealand   Oceania  1957  70.26000     2229407   12247.395320       NZL      554
+1094               New Zealand   Oceania  1962  71.24000     2488550   13175.678000       NZL      554
+1095               New Zealand   Oceania  1967  71.52000     2728150   14463.918930       NZL      554
+1096               New Zealand   Oceania  1972  71.89000     2929100   16046.037280       NZL      554
+1097               New Zealand   Oceania  1977  72.22000     3164900   16233.717700       NZL      554
+1098               New Zealand   Oceania  1982  73.84000     3210650   17632.410400       NZL      554
+1099               New Zealand   Oceania  1987  74.32000     3317166   19007.191290       NZL      554
+1100               New Zealand   Oceania  1992  76.33000     3437674   18363.324940       NZL      554
+1101               New Zealand   Oceania  1997  77.55000     3676187   21050.413770       NZL      554
+1102               New Zealand   Oceania  2002  79.11000     3908037   23189.801350       NZL      554
+1103               New Zealand   Oceania  2007  80.20400     4115771   25185.009110       NZL      554
+1104                 Nicaragua  Americas  1952  42.31400     1165790    3112.363948       NIC      558
+1105                 Nicaragua  Americas  1957  45.43200     1358828    3457.415947       NIC      558
+1106                 Nicaragua  Americas  1962  48.63200     1590597    3634.364406       NIC      558
+1107                 Nicaragua  Americas  1967  51.88400     1865490    4643.393534       NIC      558
+1108                 Nicaragua  Americas  1972  55.15100     2182908    4688.593267       NIC      558
+1109                 Nicaragua  Americas  1977  57.47000     2554598    5486.371089       NIC      558
+1110                 Nicaragua  Americas  1982  59.29800     2979423    3470.338156       NIC      558
+1111                 Nicaragua  Americas  1987  62.00800     3344353    2955.984375       NIC      558
+1112                 Nicaragua  Americas  1992  65.84300     4017939    2170.151724       NIC      558
+1113                 Nicaragua  Americas  1997  68.42600     4609572    2253.023004       NIC      558
+1114                 Nicaragua  Americas  2002  70.83600     5146848    2474.548819       NIC      558
+1115                 Nicaragua  Americas  2007  72.89900     5675356    2749.320965       NIC      558
+1116                     Niger    Africa  1952  37.44400     3379468     761.879376       NER      562
+1117                     Niger    Africa  1957  38.59800     3692184     835.523403       NER      562
+1118                     Niger    Africa  1962  39.48700     4076008     997.766113       NER      562
+1119                     Niger    Africa  1967  40.11800     4534062    1054.384891       NER      562
+1120                     Niger    Africa  1972  40.54600     5060262     954.209236       NER      562
+1121                     Niger    Africa  1977  41.29100     5682086     808.897073       NER      562
+1122                     Niger    Africa  1982  42.59800     6437188     909.722135       NER      562
+1123                     Niger    Africa  1987  44.55500     7332638     668.300023       NER      562
+1124                     Niger    Africa  1992  47.39100     8392818     581.182725       NER      562
+1125                     Niger    Africa  1997  51.31300     9666252     580.305209       NER      562
+1126                     Niger    Africa  2002  54.49600    11140655     601.074501       NER      562
+1127                     Niger    Africa  2007  56.86700    12894865     619.676892       NER      562
+1128                   Nigeria    Africa  1952  36.32400    33119096    1077.281856       NGA      566
+1129                   Nigeria    Africa  1957  37.80200    37173340    1100.592563       NGA      566
+1130                   Nigeria    Africa  1962  39.36000    41871351    1150.927478       NGA      566
+1131                   Nigeria    Africa  1967  41.04000    47287752    1014.514104       NGA      566
+1132                   Nigeria    Africa  1972  42.82100    53740085    1698.388838       NGA      566
+1133                   Nigeria    Africa  1977  44.51400    62209173    1981.951806       NGA      566
+1134                   Nigeria    Africa  1982  45.82600    73039376    1576.973750       NGA      566
+1135                   Nigeria    Africa  1987  46.88600    81551520    1385.029563       NGA      566
+1136                   Nigeria    Africa  1992  47.47200    93364244    1619.848217       NGA      566
+1137                   Nigeria    Africa  1997  47.46400   106207839    1624.941275       NGA      566
+1138                   Nigeria    Africa  2002  46.60800   119901274    1615.286395       NGA      566
+1139                   Nigeria    Africa  2007  46.85900   135031164    2013.977305       NGA      566
+1140                    Norway    Europe  1952  72.67000     3327728   10095.421720       NOR      578
+1141                    Norway    Europe  1957  73.44000     3491938   11653.973040       NOR      578
+1142                    Norway    Europe  1962  73.47000     3638919   13450.401510       NOR      578
+1143                    Norway    Europe  1967  74.08000     3786019   16361.876470       NOR      578
+1144                    Norway    Europe  1972  74.34000     3933004   18965.055510       NOR      578
+1145                    Norway    Europe  1977  75.37000     4043205   23311.349390       NOR      578
+1146                    Norway    Europe  1982  75.97000     4114787   26298.635310       NOR      578
+1147                    Norway    Europe  1987  75.89000     4186147   31540.974800       NOR      578
+1148                    Norway    Europe  1992  77.32000     4286357   33965.661150       NOR      578
+1149                    Norway    Europe  1997  78.32000     4405672   41283.164330       NOR      578
+1150                    Norway    Europe  2002  79.05000     4535591   44683.975250       NOR      578
+1151                    Norway    Europe  2007  80.19600     4627926   49357.190170       NOR      578
+1152                      Oman      Asia  1952  37.57800      507833    1828.230307       OMN      512
+1153                      Oman      Asia  1957  40.08000      561977    2242.746551       OMN      512
+1154                      Oman      Asia  1962  43.16500      628164    2924.638113       OMN      512
+1155                      Oman      Asia  1967  46.98800      714775    4720.942687       OMN      512
+1156                      Oman      Asia  1972  52.14300      829050   10618.038550       OMN      512
+1157                      Oman      Asia  1977  57.36700     1004533   11848.343920       OMN      512
+1158                      Oman      Asia  1982  62.72800     1301048   12954.791010       OMN      512
+1159                      Oman      Asia  1987  67.73400     1593882   18115.223130       OMN      512
+1160                      Oman      Asia  1992  71.19700     1915208   18616.706910       OMN      512
+1161                      Oman      Asia  1997  72.49900     2283635   19702.055810       OMN      512
+1162                      Oman      Asia  2002  74.19300     2713462   19774.836870       OMN      512
+1163                      Oman      Asia  2007  75.64000     3204897   22316.192870       OMN      512
+1164                  Pakistan      Asia  1952  43.43600    41346560     684.597144       PAK      586
+1165                  Pakistan      Asia  1957  45.55700    46679944     747.083529       PAK      586
+1166                  Pakistan      Asia  1962  47.67000    53100671     803.342742       PAK      586
+1167                  Pakistan      Asia  1967  49.80000    60641899     942.408259       PAK      586
+1168                  Pakistan      Asia  1972  51.92900    69325921    1049.938981       PAK      586
+1169                  Pakistan      Asia  1977  54.04300    78152686    1175.921193       PAK      586
+1170                  Pakistan      Asia  1982  56.15800    91462088    1443.429832       PAK      586
+1171                  Pakistan      Asia  1987  58.24500   105186881    1704.686583       PAK      586
+1172                  Pakistan      Asia  1992  60.83800   120065004    1971.829464       PAK      586
+1173                  Pakistan      Asia  1997  61.81800   135564834    2049.350521       PAK      586
+1174                  Pakistan      Asia  2002  63.61000   153403524    2092.712441       PAK      586
+1175                  Pakistan      Asia  2007  65.48300   169270617    2605.947580       PAK      586
+1176                    Panama  Americas  1952  55.19100      940080    2480.380334       PAN      591
+1177                    Panama  Americas  1957  59.20100     1063506    2961.800905       PAN      591
+1178                    Panama  Americas  1962  61.81700     1215725    3536.540301       PAN      591
+1179                    Panama  Americas  1967  64.07100     1405486    4421.009084       PAN      591
+1180                    Panama  Americas  1972  66.21600     1616384    5364.249663       PAN      591
+1181                    Panama  Americas  1977  68.68100     1839782    5351.912144       PAN      591
+1182                    Panama  Americas  1982  70.47200     2036305    7009.601598       PAN      591
+1183                    Panama  Americas  1987  71.52300     2253639    7034.779161       PAN      591
+1184                    Panama  Americas  1992  72.46200     2484997    6618.743050       PAN      591
+1185                    Panama  Americas  1997  73.73800     2734531    7113.692252       PAN      591
+1186                    Panama  Americas  2002  74.71200     2990875    7356.031934       PAN      591
+1187                    Panama  Americas  2007  75.53700     3242173    9809.185636       PAN      591
+1188                  Paraguay  Americas  1952  62.64900     1555876    1952.308701       PRY      600
+1189                  Paraguay  Americas  1957  63.19600     1770902    2046.154706       PRY      600
+1190                  Paraguay  Americas  1962  64.36100     2009813    2148.027146       PRY      600
+1191                  Paraguay  Americas  1967  64.95100     2287985    2299.376311       PRY      600
+1192                  Paraguay  Americas  1972  65.81500     2614104    2523.337977       PRY      600
+1193                  Paraguay  Americas  1977  66.35300     2984494    3248.373311       PRY      600
+1194                  Paraguay  Americas  1982  66.87400     3366439    4258.503604       PRY      600
+1195                  Paraguay  Americas  1987  67.37800     3886512    3998.875695       PRY      600
+1196                  Paraguay  Americas  1992  68.22500     4483945    4196.411078       PRY      600
+1197                  Paraguay  Americas  1997  69.40000     5154123    4247.400261       PRY      600
+1198                  Paraguay  Americas  2002  70.75500     5884491    3783.674243       PRY      600
+1199                  Paraguay  Americas  2007  71.75200     6667147    4172.838464       PRY      600
+1200                      Peru  Americas  1952  43.90200     8025700    3758.523437       PER      604
+1201                      Peru  Americas  1957  46.26300     9146100    4245.256698       PER      604
+1202                      Peru  Americas  1962  49.09600    10516500    4957.037982       PER      604
+1203                      Peru  Americas  1967  51.44500    12132200    5788.093330       PER      604
+1204                      Peru  Americas  1972  55.44800    13954700    5937.827283       PER      604
+1205                      Peru  Americas  1977  58.44700    15990099    6281.290855       PER      604
+1206                      Peru  Americas  1982  61.40600    18125129    6434.501797       PER      604
+1207                      Peru  Americas  1987  64.13400    20195924    6360.943444       PER      604
+1208                      Peru  Americas  1992  66.45800    22430449    4446.380924       PER      604
+1209                      Peru  Americas  1997  68.38600    24748122    5838.347657       PER      604
+1210                      Peru  Americas  2002  69.90600    26769436    5909.020073       PER      604
+1211                      Peru  Americas  2007  71.42100    28674757    7408.905561       PER      604
+1212               Philippines      Asia  1952  47.75200    22438691    1272.880995       PHL      608
+1213               Philippines      Asia  1957  51.33400    26072194    1547.944844       PHL      608
+1214               Philippines      Asia  1962  54.75700    30325264    1649.552153       PHL      608
+1215               Philippines      Asia  1967  56.39300    35356600    1814.127430       PHL      608
+1216               Philippines      Asia  1972  58.06500    40850141    1989.374070       PHL      608
+1217               Philippines      Asia  1977  60.06000    46850962    2373.204287       PHL      608
+1218               Philippines      Asia  1982  62.08200    53456774    2603.273765       PHL      608
+1219               Philippines      Asia  1987  64.15100    60017788    2189.634995       PHL      608
+1220               Philippines      Asia  1992  66.45800    67185766    2279.324017       PHL      608
+1221               Philippines      Asia  1997  68.56400    75012988    2536.534925       PHL      608
+1222               Philippines      Asia  2002  70.30300    82995088    2650.921068       PHL      608
+1223               Philippines      Asia  2007  71.68800    91077287    3190.481016       PHL      608
+1224                    Poland    Europe  1952  61.31000    25730551    4029.329699       POL      616
+1225                    Poland    Europe  1957  65.77000    28235346    4734.253019       POL      616
+1226                    Poland    Europe  1962  67.64000    30329617    5338.752143       POL      616
+1227                    Poland    Europe  1967  69.61000    31785378    6557.152776       POL      616
+1228                    Poland    Europe  1972  70.85000    33039545    8006.506993       POL      616
+1229                    Poland    Europe  1977  70.67000    34621254    9508.141454       POL      616
+1230                    Poland    Europe  1982  71.32000    36227381    8451.531004       POL      616
+1231                    Poland    Europe  1987  70.98000    37740710    9082.351172       POL      616
+1232                    Poland    Europe  1992  70.99000    38370697    7738.881247       POL      616
+1233                    Poland    Europe  1997  72.75000    38654957   10159.583680       POL      616
+1234                    Poland    Europe  2002  74.67000    38625976   12002.239080       POL      616
+1235                    Poland    Europe  2007  75.56300    38518241   15389.924680       POL      616
+1236                  Portugal    Europe  1952  59.82000     8526050    3068.319867       PRT      620
+1237                  Portugal    Europe  1957  61.51000     8817650    3774.571743       PRT      620
+1238                  Portugal    Europe  1962  64.39000     9019800    4727.954889       PRT      620
+1239                  Portugal    Europe  1967  66.60000     9103000    6361.517993       PRT      620
+1240                  Portugal    Europe  1972  69.26000     8970450    9022.247417       PRT      620
+1241                  Portugal    Europe  1977  70.41000     9662600   10172.485720       PRT      620
+1242                  Portugal    Europe  1982  72.77000     9859650   11753.842910       PRT      620
+1243                  Portugal    Europe  1987  74.06000     9915289   13039.308760       PRT      620
+1244                  Portugal    Europe  1992  74.86000     9927680   16207.266630       PRT      620
+1245                  Portugal    Europe  1997  75.97000    10156415   17641.031560       PRT      620
+1246                  Portugal    Europe  2002  77.29000    10433867   19970.907870       PRT      620
+1247                  Portugal    Europe  2007  78.09800    10642836   20509.647770       PRT      620
+1248               Puerto Rico  Americas  1952  64.28000     2227000    3081.959785       PRI      630
+1249               Puerto Rico  Americas  1957  68.54000     2260000    3907.156189       PRI      630
+1250               Puerto Rico  Americas  1962  69.62000     2448046    5108.344630       PRI      630
+1251               Puerto Rico  Americas  1967  71.10000     2648961    6929.277714       PRI      630
+1252               Puerto Rico  Americas  1972  72.16000     2847132    9123.041742       PRI      630
+1253               Puerto Rico  Americas  1977  73.44000     3080828    9770.524921       PRI      630
+1254               Puerto Rico  Americas  1982  73.75000     3279001   10330.989150       PRI      630
+1255               Puerto Rico  Americas  1987  74.63000     3444468   12281.341910       PRI      630
+1256               Puerto Rico  Americas  1992  73.91100     3585176   14641.587110       PRI      630
+1257               Puerto Rico  Americas  1997  74.91700     3759430   16999.433300       PRI      630
+1258               Puerto Rico  Americas  2002  77.77800     3859606   18855.606180       PRI      630
+1259               Puerto Rico  Americas  2007  78.74600     3942491   19328.709010       PRI      630
+1260                   Reunion    Africa  1952  52.72400      257700    2718.885295       REU      638
+1261                   Reunion    Africa  1957  55.09000      308700    2769.451844       REU      638
+1262                   Reunion    Africa  1962  57.66600      358900    3173.723340       REU      638
+1263                   Reunion    Africa  1967  60.54200      414024    4021.175739       REU      638
+1264                   Reunion    Africa  1972  64.27400      461633    5047.658563       REU      638
+1265                   Reunion    Africa  1977  67.06400      492095    4319.804067       REU      638
+1266                   Reunion    Africa  1982  69.88500      517810    5267.219353       REU      638
+1267                   Reunion    Africa  1987  71.91300      562035    5303.377488       REU      638
+1268                   Reunion    Africa  1992  73.61500      622191    6101.255823       REU      638
+1269                   Reunion    Africa  1997  74.77200      684810    6071.941411       REU      638
+1270                   Reunion    Africa  2002  75.74400      743981    6316.165200       REU      638
+1271                   Reunion    Africa  2007  76.44200      798094    7670.122558       REU      638
+1272                   Romania    Europe  1952  61.05000    16630000    3144.613186       ROU      642
+1273                   Romania    Europe  1957  64.10000    17829327    3943.370225       ROU      642
+1274                   Romania    Europe  1962  66.80000    18680721    4734.997586       ROU      642
+1275                   Romania    Europe  1967  66.80000    19284814    6470.866545       ROU      642
+1276                   Romania    Europe  1972  69.21000    20662648    8011.414402       ROU      642
+1277                   Romania    Europe  1977  69.46000    21658597    9356.397240       ROU      642
+1278                   Romania    Europe  1982  69.66000    22356726    9605.314053       ROU      642
+1279                   Romania    Europe  1987  69.53000    22686371    9696.273295       ROU      642
+1280                   Romania    Europe  1992  69.36000    22797027    6598.409903       ROU      642
+1281                   Romania    Europe  1997  69.72000    22562458    7346.547557       ROU      642
+1282                   Romania    Europe  2002  71.32200    22404337    7885.360081       ROU      642
+1283                   Romania    Europe  2007  72.47600    22276056   10808.475610       ROU      642
+1284                    Rwanda    Africa  1952  40.00000     2534927     493.323875       RWA      646
+1285                    Rwanda    Africa  1957  41.50000     2822082     540.289398       RWA      646
+1286                    Rwanda    Africa  1962  43.00000     3051242     597.473073       RWA      646
+1287                    Rwanda    Africa  1967  44.10000     3451079     510.963714       RWA      646
+1288                    Rwanda    Africa  1972  44.60000     3992121     590.580664       RWA      646
+1289                    Rwanda    Africa  1977  45.00000     4657072     670.080601       RWA      646
+1290                    Rwanda    Africa  1982  46.21800     5507565     881.570647       RWA      646
+1291                    Rwanda    Africa  1987  44.02000     6349365     847.991217       RWA      646
+1292                    Rwanda    Africa  1992  23.59900     7290203     737.068595       RWA      646
+1293                    Rwanda    Africa  1997  36.08700     7212583     589.944505       RWA      646
+1294                    Rwanda    Africa  2002  43.41300     7852401     785.653765       RWA      646
+1295                    Rwanda    Africa  2007  46.24200     8860588     863.088464       RWA      646
+1296     Sao Tome and Principe    Africa  1952  46.47100       60011     879.583586       STP      678
+1297     Sao Tome and Principe    Africa  1957  48.94500       61325     860.736903       STP      678
+1298     Sao Tome and Principe    Africa  1962  51.89300       65345    1071.551119       STP      678
+1299     Sao Tome and Principe    Africa  1967  54.42500       70787    1384.840593       STP      678
+1300     Sao Tome and Principe    Africa  1972  56.48000       76595    1532.985254       STP      678
+1301     Sao Tome and Principe    Africa  1977  58.55000       86796    1737.561657       STP      678
+1302     Sao Tome and Principe    Africa  1982  60.35100       98593    1890.218117       STP      678
+1303     Sao Tome and Principe    Africa  1987  61.72800      110812    1516.525457       STP      678
+1304     Sao Tome and Principe    Africa  1992  62.74200      125911    1428.777814       STP      678
+1305     Sao Tome and Principe    Africa  1997  63.30600      145608    1339.076036       STP      678
+1306     Sao Tome and Principe    Africa  2002  64.33700      170372    1353.092390       STP      678
+1307     Sao Tome and Principe    Africa  2007  65.52800      199579    1598.435089       STP      678
+1308              Saudi Arabia      Asia  1952  39.87500     4005677    6459.554823       SAU      682
+1309              Saudi Arabia      Asia  1957  42.86800     4419650    8157.591248       SAU      682
+1310              Saudi Arabia      Asia  1962  45.91400     4943029   11626.419750       SAU      682
+1311              Saudi Arabia      Asia  1967  49.90100     5618198   16903.048860       SAU      682
+1312              Saudi Arabia      Asia  1972  53.88600     6472756   24837.428650       SAU      682
+1313              Saudi Arabia      Asia  1977  58.69000     8128505   34167.762600       SAU      682
+1314              Saudi Arabia      Asia  1982  63.01200    11254672   33693.175250       SAU      682
+1315              Saudi Arabia      Asia  1987  66.29500    14619745   21198.261360       SAU      682
+1316              Saudi Arabia      Asia  1992  68.76800    16945857   24841.617770       SAU      682
+1317              Saudi Arabia      Asia  1997  70.53300    21229759   20586.690190       SAU      682
+1318              Saudi Arabia      Asia  2002  71.62600    24501530   19014.541180       SAU      682
+1319              Saudi Arabia      Asia  2007  72.77700    27601038   21654.831940       SAU      682
+1320                   Senegal    Africa  1952  37.27800     2755589    1450.356983       SEN      686
+1321                   Senegal    Africa  1957  39.32900     3054547    1567.653006       SEN      686
+1322                   Senegal    Africa  1962  41.45400     3430243    1654.988723       SEN      686
+1323                   Senegal    Africa  1967  43.56300     3965841    1612.404632       SEN      686
+1324                   Senegal    Africa  1972  45.81500     4588696    1597.712056       SEN      686
+1325                   Senegal    Africa  1977  48.87900     5260855    1561.769116       SEN      686
+1326                   Senegal    Africa  1982  52.37900     6147783    1518.479984       SEN      686
+1327                   Senegal    Africa  1987  55.76900     7171347    1441.720720       SEN      686
+1328                   Senegal    Africa  1992  58.19600     8307920    1367.899369       SEN      686
+1329                   Senegal    Africa  1997  60.18700     9535314    1392.368347       SEN      686
+1330                   Senegal    Africa  2002  61.60000    10870037    1519.635262       SEN      686
+1331                   Senegal    Africa  2007  63.06200    12267493    1712.472136       SEN      686
+1332                    Serbia    Europe  1952  57.99600     6860147    3581.459448       SRB      688
+1333                    Serbia    Europe  1957  61.68500     7271135    4981.090891       SRB      688
+1334                    Serbia    Europe  1962  64.53100     7616060    6289.629157       SRB      688
+1335                    Serbia    Europe  1967  66.91400     7971222    7991.707066       SRB      688
+1336                    Serbia    Europe  1972  68.70000     8313288   10522.067490       SRB      688
+1337                    Serbia    Europe  1977  70.30000     8686367   12980.669560       SRB      688
+1338                    Serbia    Europe  1982  70.16200     9032824   15181.092700       SRB      688
+1339                    Serbia    Europe  1987  71.21800     9230783   15870.878510       SRB      688
+1340                    Serbia    Europe  1992  71.65900     9826397    9325.068238       SRB      688
+1341                    Serbia    Europe  1997  72.23200    10336594    7914.320304       SRB      688
+1342                    Serbia    Europe  2002  73.21300    10111559    7236.075251       SRB      688
+1343                    Serbia    Europe  2007  74.00200    10150265    9786.534714       SRB      688
+1344              Sierra Leone    Africa  1952  30.33100     2143249     879.787736       SLE      694
+1345              Sierra Leone    Africa  1957  31.57000     2295678    1004.484437       SLE      694
+1346              Sierra Leone    Africa  1962  32.76700     2467895    1116.639877       SLE      694
+1347              Sierra Leone    Africa  1967  34.11300     2662190    1206.043465       SLE      694
+1348              Sierra Leone    Africa  1972  35.40000     2879013    1353.759762       SLE      694
+1349              Sierra Leone    Africa  1977  36.78800     3140897    1348.285159       SLE      694
+1350              Sierra Leone    Africa  1982  38.44500     3464522    1465.010784       SLE      694
+1351              Sierra Leone    Africa  1987  40.00600     3868905    1294.447788       SLE      694
+1352              Sierra Leone    Africa  1992  38.33300     4260884    1068.696278       SLE      694
+1353              Sierra Leone    Africa  1997  39.89700     4578212     574.648158       SLE      694
+1354              Sierra Leone    Africa  2002  41.01200     5359092     699.489713       SLE      694
+1355              Sierra Leone    Africa  2007  42.56800     6144562     862.540756       SLE      694
+1356                 Singapore      Asia  1952  60.39600     1127000    2315.138227       SGP      702
+1357                 Singapore      Asia  1957  63.17900     1445929    2843.104409       SGP      702
+1358                 Singapore      Asia  1962  65.79800     1750200    3674.735572       SGP      702
+1359                 Singapore      Asia  1967  67.94600     1977600    4977.418540       SGP      702
+1360                 Singapore      Asia  1972  69.52100     2152400    8597.756202       SGP      702
+1361                 Singapore      Asia  1977  70.79500     2325300   11210.089480       SGP      702
+1362                 Singapore      Asia  1982  71.76000     2651869   15169.161120       SGP      702
+1363                 Singapore      Asia  1987  73.56000     2794552   18861.530810       SGP      702
+1364                 Singapore      Asia  1992  75.78800     3235865   24769.891200       SGP      702
+1365                 Singapore      Asia  1997  77.15800     3802309   33519.476600       SGP      702
+1366                 Singapore      Asia  2002  78.77000     4197776   36023.105400       SGP      702
+1367                 Singapore      Asia  2007  79.97200     4553009   47143.179640       SGP      702
+1368           Slovak Republic    Europe  1952  64.36000     3558137    5074.659104       SVK      703
+1369           Slovak Republic    Europe  1957  67.45000     3844277    6093.262980       SVK      703
+1370           Slovak Republic    Europe  1962  70.33000     4237384    7481.107598       SVK      703
+1371           Slovak Republic    Europe  1967  70.98000     4442238    8412.902397       SVK      703
+1372           Slovak Republic    Europe  1972  70.35000     4593433    9674.167626       SVK      703
+1373           Slovak Republic    Europe  1977  70.45000     4827803   10922.664040       SVK      703
+1374           Slovak Republic    Europe  1982  70.80000     5048043   11348.545850       SVK      703
+1375           Slovak Republic    Europe  1987  71.08000     5199318   12037.267580       SVK      703
+1376           Slovak Republic    Europe  1992  71.38000     5302888    9498.467723       SVK      703
+1377           Slovak Republic    Europe  1997  72.71000     5383010   12126.230650       SVK      703
+1378           Slovak Republic    Europe  2002  73.80000     5410052   13638.778370       SVK      703
+1379           Slovak Republic    Europe  2007  74.66300     5447502   18678.314350       SVK      703
+1380                  Slovenia    Europe  1952  65.57000     1489518    4215.041741       SVN      705
+1381                  Slovenia    Europe  1957  67.85000     1533070    5862.276629       SVN      705
+1382                  Slovenia    Europe  1962  69.15000     1582962    7402.303395       SVN      705
+1383                  Slovenia    Europe  1967  69.18000     1646912    9405.489397       SVN      705
+1384                  Slovenia    Europe  1972  69.82000     1694510   12383.486200       SVN      705
+1385                  Slovenia    Europe  1977  70.97000     1746919   15277.030170       SVN      705
+1386                  Slovenia    Europe  1982  71.06300     1861252   17866.721750       SVN      705
+1387                  Slovenia    Europe  1987  72.25000     1945870   18678.534920       SVN      705
+1388                  Slovenia    Europe  1992  73.64000     1999210   14214.716810       SVN      705
+1389                  Slovenia    Europe  1997  75.13000     2011612   17161.107350       SVN      705
+1390                  Slovenia    Europe  2002  76.66000     2011497   20660.019360       SVN      705
+1391                  Slovenia    Europe  2007  77.92600     2009245   25768.257590       SVN      705
+1392                   Somalia    Africa  1952  32.97800     2526994    1135.749842       SOM      706
+1393                   Somalia    Africa  1957  34.97700     2780415    1258.147413       SOM      706
+1394                   Somalia    Africa  1962  36.98100     3080153    1369.488336       SOM      706
+1395                   Somalia    Africa  1967  38.97700     3428839    1284.733180       SOM      706
+1396                   Somalia    Africa  1972  40.97300     3840161    1254.576127       SOM      706
+1397                   Somalia    Africa  1977  41.97400     4353666    1450.992513       SOM      706
+1398                   Somalia    Africa  1982  42.95500     5828892    1176.807031       SOM      706
+1399                   Somalia    Africa  1987  44.50100     6921858    1093.244963       SOM      706
+1400                   Somalia    Africa  1992  39.65800     6099799     926.960296       SOM      706
+1401                   Somalia    Africa  1997  43.79500     6633514     930.596428       SOM      706
+1402                   Somalia    Africa  2002  45.93600     7753310     882.081822       SOM      706
+1403                   Somalia    Africa  2007  48.15900     9118773     926.141068       SOM      706
+1404              South Africa    Africa  1952  45.00900    14264935    4725.295531       ZAF      710
+1405              South Africa    Africa  1957  47.98500    16151549    5487.104219       ZAF      710
+1406              South Africa    Africa  1962  49.95100    18356657    5768.729717       ZAF      710
+1407              South Africa    Africa  1967  51.92700    20997321    7114.477971       ZAF      710
+1408              South Africa    Africa  1972  53.69600    23935810    7765.962636       ZAF      710
+1409              South Africa    Africa  1977  55.52700    27129932    8028.651439       ZAF      710
+1410              South Africa    Africa  1982  58.16100    31140029    8568.266228       ZAF      710
+1411              South Africa    Africa  1987  60.83400    35933379    7825.823398       ZAF      710
+1412              South Africa    Africa  1992  61.88800    39964159    7225.069258       ZAF      710
+1413              South Africa    Africa  1997  60.23600    42835005    7479.188244       ZAF      710
+1414              South Africa    Africa  2002  53.36500    44433622    7710.946444       ZAF      710
+1415              South Africa    Africa  2007  49.33900    43997828    9269.657808       ZAF      710
+1416                     Spain    Europe  1952  64.94000    28549870    3834.034742       ESP      724
+1417                     Spain    Europe  1957  66.66000    29841614    4564.802410       ESP      724
+1418                     Spain    Europe  1962  69.69000    31158061    5693.843879       ESP      724
+1419                     Spain    Europe  1967  71.44000    32850275    7993.512294       ESP      724
+1420                     Spain    Europe  1972  73.06000    34513161   10638.751310       ESP      724
+1421                     Spain    Europe  1977  74.39000    36439000   13236.921170       ESP      724
+1422                     Spain    Europe  1982  76.30000    37983310   13926.169970       ESP      724
+1423                     Spain    Europe  1987  76.90000    38880702   15764.983130       ESP      724
+1424                     Spain    Europe  1992  77.57000    39549438   18603.064520       ESP      724
+1425                     Spain    Europe  1997  78.77000    39855442   20445.298960       ESP      724
+1426                     Spain    Europe  2002  79.78000    40152517   24835.471660       ESP      724
+1427                     Spain    Europe  2007  80.94100    40448191   28821.063700       ESP      724
+1428                 Sri Lanka      Asia  1952  57.59300     7982342    1083.532030       LKA      144
+1429                 Sri Lanka      Asia  1957  61.45600     9128546    1072.546602       LKA      144
+1430                 Sri Lanka      Asia  1962  62.19200    10421936    1074.471960       LKA      144
+1431                 Sri Lanka      Asia  1967  64.26600    11737396    1135.514326       LKA      144
+1432                 Sri Lanka      Asia  1972  65.04200    13016733    1213.395530       LKA      144
+1433                 Sri Lanka      Asia  1977  65.94900    14116836    1348.775651       LKA      144
+1434                 Sri Lanka      Asia  1982  68.75700    15410151    1648.079789       LKA      144
+1435                 Sri Lanka      Asia  1987  69.01100    16495304    1876.766827       LKA      144
+1436                 Sri Lanka      Asia  1992  70.37900    17587060    2153.739222       LKA      144
+1437                 Sri Lanka      Asia  1997  70.45700    18698655    2664.477257       LKA      144
+1438                 Sri Lanka      Asia  2002  70.81500    19576783    3015.378833       LKA      144
+1439                 Sri Lanka      Asia  2007  72.39600    20378239    3970.095407       LKA      144
+1440                     Sudan    Africa  1952  38.63500     8504667    1615.991129       SDN      736
+1441                     Sudan    Africa  1957  39.62400     9753392    1770.337074       SDN      736
+1442                     Sudan    Africa  1962  40.87000    11183227    1959.593767       SDN      736
+1443                     Sudan    Africa  1967  42.85800    12716129    1687.997641       SDN      736
+1444                     Sudan    Africa  1972  45.08300    14597019    1659.652775       SDN      736
+1445                     Sudan    Africa  1977  47.80000    17104986    2202.988423       SDN      736
+1446                     Sudan    Africa  1982  50.33800    20367053    1895.544073       SDN      736
+1447                     Sudan    Africa  1987  51.74400    24725960    1507.819159       SDN      736
+1448                     Sudan    Africa  1992  53.55600    28227588    1492.197043       SDN      736
+1449                     Sudan    Africa  1997  55.37300    32160729    1632.210764       SDN      736
+1450                     Sudan    Africa  2002  56.36900    37090298    1993.398314       SDN      736
+1451                     Sudan    Africa  2007  58.55600    42292929    2602.394995       SDN      736
+1452                 Swaziland    Africa  1952  41.40700      290243    1148.376626       SWZ      748
+1453                 Swaziland    Africa  1957  43.42400      326741    1244.708364       SWZ      748
+1454                 Swaziland    Africa  1962  44.99200      370006    1856.182125       SWZ      748
+1455                 Swaziland    Africa  1967  46.63300      420690    2613.101665       SWZ      748
+1456                 Swaziland    Africa  1972  49.55200      480105    3364.836625       SWZ      748
+1457                 Swaziland    Africa  1977  52.53700      551425    3781.410618       SWZ      748
+1458                 Swaziland    Africa  1982  55.56100      649901    3895.384018       SWZ      748
+1459                 Swaziland    Africa  1987  57.67800      779348    3984.839812       SWZ      748
+1460                 Swaziland    Africa  1992  58.47400      962344    3553.022400       SWZ      748
+1461                 Swaziland    Africa  1997  54.28900     1054486    3876.768460       SWZ      748
+1462                 Swaziland    Africa  2002  43.86900     1130269    4128.116943       SWZ      748
+1463                 Swaziland    Africa  2007  39.61300     1133066    4513.480643       SWZ      748
+1464                    Sweden    Europe  1952  71.86000     7124673    8527.844662       SWE      752
+1465                    Sweden    Europe  1957  72.49000     7363802    9911.878226       SWE      752
+1466                    Sweden    Europe  1962  73.37000     7561588   12329.441920       SWE      752
+1467                    Sweden    Europe  1967  74.16000     7867931   15258.296970       SWE      752
+1468                    Sweden    Europe  1972  74.72000     8122293   17832.024640       SWE      752
+1469                    Sweden    Europe  1977  75.44000     8251648   18855.725210       SWE      752
+1470                    Sweden    Europe  1982  76.42000     8325260   20667.381250       SWE      752
+1471                    Sweden    Europe  1987  77.19000     8421403   23586.929270       SWE      752
+1472                    Sweden    Europe  1992  78.16000     8718867   23880.016830       SWE      752
+1473                    Sweden    Europe  1997  79.39000     8897619   25266.594990       SWE      752
+1474                    Sweden    Europe  2002  80.04000     8954175   29341.630930       SWE      752
+1475                    Sweden    Europe  2007  80.88400     9031088   33859.748350       SWE      752
+1476               Switzerland    Europe  1952  69.62000     4815000   14734.232750       CHE      756
+1477               Switzerland    Europe  1957  70.56000     5126000   17909.489730       CHE      756
+1478               Switzerland    Europe  1962  71.32000     5666000   20431.092700       CHE      756
+1479               Switzerland    Europe  1967  72.77000     6063000   22966.144320       CHE      756
+1480               Switzerland    Europe  1972  73.78000     6401400   27195.113040       CHE      756
+1481               Switzerland    Europe  1977  75.39000     6316424   26982.290520       CHE      756
+1482               Switzerland    Europe  1982  76.21000     6468126   28397.715120       CHE      756
+1483               Switzerland    Europe  1987  77.41000     6649942   30281.704590       CHE      756
+1484               Switzerland    Europe  1992  78.03000     6995447   31871.530300       CHE      756
+1485               Switzerland    Europe  1997  79.37000     7193761   32135.323010       CHE      756
+1486               Switzerland    Europe  2002  80.62000     7361757   34480.957710       CHE      756
+1487               Switzerland    Europe  2007  81.70100     7554661   37506.419070       CHE      756
+1488                     Syria      Asia  1952  45.88300     3661549    1643.485354       SYR      760
+1489                     Syria      Asia  1957  48.28400     4149908    2117.234893       SYR      760
+1490                     Syria      Asia  1962  50.30500     4834621    2193.037133       SYR      760
+1491                     Syria      Asia  1967  53.65500     5680812    1881.923632       SYR      760
+1492                     Syria      Asia  1972  57.29600     6701172    2571.423014       SYR      760
+1493                     Syria      Asia  1977  61.19500     7932503    3195.484582       SYR      760
+1494                     Syria      Asia  1982  64.59000     9410494    3761.837715       SYR      760
+1495                     Syria      Asia  1987  66.97400    11242847    3116.774285       SYR      760
+1496                     Syria      Asia  1992  69.24900    13219062    3340.542768       SYR      760
+1497                     Syria      Asia  1997  71.52700    15081016    4014.238972       SYR      760
+1498                     Syria      Asia  2002  73.05300    17155814    4090.925331       SYR      760
+1499                     Syria      Asia  2007  74.14300    19314747    4184.548089       SYR      760
+1500                    Taiwan      Asia  1952  58.50000     8550362    1206.947913       TWN      158
+1501                    Taiwan      Asia  1957  62.40000    10164215    1507.861290       TWN      158
+1502                    Taiwan      Asia  1962  65.20000    11918938    1822.879028       TWN      158
+1503                    Taiwan      Asia  1967  67.50000    13648692    2643.858681       TWN      158
+1504                    Taiwan      Asia  1972  69.39000    15226039    4062.523897       TWN      158
+1505                    Taiwan      Asia  1977  70.59000    16785196    5596.519826       TWN      158
+1506                    Taiwan      Asia  1982  72.16000    18501390    7426.354774       TWN      158
+1507                    Taiwan      Asia  1987  73.40000    19757799   11054.561750       TWN      158
+1508                    Taiwan      Asia  1992  74.26000    20686918   15215.657900       TWN      158
+1509                    Taiwan      Asia  1997  75.25000    21628605   20206.820980       TWN      158
+1510                    Taiwan      Asia  2002  76.99000    22454239   23235.423290       TWN      158
+1511                    Taiwan      Asia  2007  78.40000    23174294   28718.276840       TWN      158
+1512                  Tanzania    Africa  1952  41.21500     8322925     716.650072       TZA      834
+1513                  Tanzania    Africa  1957  42.97400     9452826     698.535607       TZA      834
+1514                  Tanzania    Africa  1962  44.24600    10863958     722.003807       TZA      834
+1515                  Tanzania    Africa  1967  45.75700    12607312     848.218657       TZA      834
+1516                  Tanzania    Africa  1972  47.62000    14706593     915.985059       TZA      834
+1517                  Tanzania    Africa  1977  49.91900    17129565     962.492293       TZA      834
+1518                  Tanzania    Africa  1982  50.60800    19844382     874.242607       TZA      834
+1519                  Tanzania    Africa  1987  51.53500    23040630     831.822079       TZA      834
+1520                  Tanzania    Africa  1992  50.44000    26605473     825.682454       TZA      834
+1521                  Tanzania    Africa  1997  48.46600    30686889     789.186223       TZA      834
+1522                  Tanzania    Africa  2002  49.65100    34593779     899.074211       TZA      834
+1523                  Tanzania    Africa  2007  52.51700    38139640    1107.482182       TZA      834
+1524                  Thailand      Asia  1952  50.84800    21289402     757.797418       THA      764
+1525                  Thailand      Asia  1957  53.63000    25041917     793.577415       THA      764
+1526                  Thailand      Asia  1962  56.06100    29263397    1002.199172       THA      764
+1527                  Thailand      Asia  1967  58.28500    34024249    1295.460660       THA      764
+1528                  Thailand      Asia  1972  60.40500    39276153    1524.358936       THA      764
+1529                  Thailand      Asia  1977  62.49400    44148285    1961.224635       THA      764
+1530                  Thailand      Asia  1982  64.59700    48827160    2393.219781       THA      764
+1531                  Thailand      Asia  1987  66.08400    52910342    2982.653773       THA      764
+1532                  Thailand      Asia  1992  67.29800    56667095    4616.896545       THA      764
+1533                  Thailand      Asia  1997  67.52100    60216677    5852.625497       THA      764
+1534                  Thailand      Asia  2002  68.56400    62806748    5913.187529       THA      764
+1535                  Thailand      Asia  2007  70.61600    65068149    7458.396327       THA      764
+1536                      Togo    Africa  1952  38.59600     1219113     859.808657       TGO      768
+1537                      Togo    Africa  1957  41.20800     1357445     925.908320       TGO      768
+1538                      Togo    Africa  1962  43.92200     1528098    1067.534810       TGO      768
+1539                      Togo    Africa  1967  46.76900     1735550    1477.596760       TGO      768
+1540                      Togo    Africa  1972  49.75900     2056351    1649.660188       TGO      768
+1541                      Togo    Africa  1977  52.88700     2308582    1532.776998       TGO      768
+1542                      Togo    Africa  1982  55.47100     2644765    1344.577953       TGO      768
+1543                      Togo    Africa  1987  56.94100     3154264    1202.201361       TGO      768
+1544                      Togo    Africa  1992  58.06100     3747553    1034.298904       TGO      768
+1545                      Togo    Africa  1997  58.39000     4320890     982.286924       TGO      768
+1546                      Togo    Africa  2002  57.56100     4977378     886.220577       TGO      768
+1547                      Togo    Africa  2007  58.42000     5701579     882.969944       TGO      768
+1548       Trinidad and Tobago  Americas  1952  59.10000      662850    3023.271928       TTO      780
+1549       Trinidad and Tobago  Americas  1957  61.80000      764900    4100.393400       TTO      780
+1550       Trinidad and Tobago  Americas  1962  64.90000      887498    4997.523971       TTO      780
+1551       Trinidad and Tobago  Americas  1967  65.40000      960155    5621.368472       TTO      780
+1552       Trinidad and Tobago  Americas  1972  65.90000      975199    6619.551419       TTO      780
+1553       Trinidad and Tobago  Americas  1977  68.30000     1039009    7899.554209       TTO      780
+1554       Trinidad and Tobago  Americas  1982  68.83200     1116479    9119.528607       TTO      780
+1555       Trinidad and Tobago  Americas  1987  69.58200     1191336    7388.597823       TTO      780
+1556       Trinidad and Tobago  Americas  1992  69.86200     1183669    7370.990932       TTO      780
+1557       Trinidad and Tobago  Americas  1997  69.46500     1138101    8792.573126       TTO      780
+1558       Trinidad and Tobago  Americas  2002  68.97600     1101832   11460.600230       TTO      780
+1559       Trinidad and Tobago  Americas  2007  69.81900     1056608   18008.509240       TTO      780
+1560                   Tunisia    Africa  1952  44.60000     3647735    1468.475631       TUN      788
+1561                   Tunisia    Africa  1957  47.10000     3950849    1395.232468       TUN      788
+1562                   Tunisia    Africa  1962  49.57900     4286552    1660.303210       TUN      788
+1563                   Tunisia    Africa  1967  52.05300     4786986    1932.360167       TUN      788
+1564                   Tunisia    Africa  1972  55.60200     5303507    2753.285994       TUN      788
+1565                   Tunisia    Africa  1977  59.83700     6005061    3120.876811       TUN      788
+1566                   Tunisia    Africa  1982  64.04800     6734098    3560.233174       TUN      788
+1567                   Tunisia    Africa  1987  66.89400     7724976    3810.419296       TUN      788
+1568                   Tunisia    Africa  1992  70.00100     8523077    4332.720164       TUN      788
+1569                   Tunisia    Africa  1997  71.97300     9231669    4876.798614       TUN      788
+1570                   Tunisia    Africa  2002  73.04200     9770575    5722.895655       TUN      788
+1571                   Tunisia    Africa  2007  73.92300    10276158    7092.923025       TUN      788
+1572                    Turkey    Europe  1952  43.58500    22235677    1969.100980       TUR      792
+1573                    Turkey    Europe  1957  48.07900    25670939    2218.754257       TUR      792
+1574                    Turkey    Europe  1962  52.09800    29788695    2322.869908       TUR      792
+1575                    Turkey    Europe  1967  54.33600    33411317    2826.356387       TUR      792
+1576                    Turkey    Europe  1972  57.00500    37492953    3450.696380       TUR      792
+1577                    Turkey    Europe  1977  59.50700    42404033    4269.122326       TUR      792
+1578                    Turkey    Europe  1982  61.03600    47328791    4241.356344       TUR      792
+1579                    Turkey    Europe  1987  63.10800    52881328    5089.043686       TUR      792
+1580                    Turkey    Europe  1992  66.14600    58179144    5678.348271       TUR      792
+1581                    Turkey    Europe  1997  68.83500    63047647    6601.429915       TUR      792
+1582                    Turkey    Europe  2002  70.84500    67308928    6508.085718       TUR      792
+1583                    Turkey    Europe  2007  71.77700    71158647    8458.276384       TUR      792
+1584                    Uganda    Africa  1952  39.97800     5824797     734.753484       UGA      800
+1585                    Uganda    Africa  1957  42.57100     6675501     774.371069       UGA      800
+1586                    Uganda    Africa  1962  45.34400     7688797     767.271740       UGA      800
+1587                    Uganda    Africa  1967  48.05100     8900294     908.918522       UGA      800
+1588                    Uganda    Africa  1972  51.01600    10190285     950.735869       UGA      800
+1589                    Uganda    Africa  1977  50.35000    11457758     843.733137       UGA      800
+1590                    Uganda    Africa  1982  49.84900    12939400     682.266227       UGA      800
+1591                    Uganda    Africa  1987  51.50900    15283050     617.724406       UGA      800
+1592                    Uganda    Africa  1992  48.82500    18252190     644.170797       UGA      800
+1593                    Uganda    Africa  1997  44.57800    21210254     816.559081       UGA      800
+1594                    Uganda    Africa  2002  47.81300    24739869     927.721002       UGA      800
+1595                    Uganda    Africa  2007  51.54200    29170398    1056.380121       UGA      800
+1596            United Kingdom    Europe  1952  69.18000    50430000    9979.508487       GBR      826
+1597            United Kingdom    Europe  1957  70.42000    51430000   11283.177950       GBR      826
+1598            United Kingdom    Europe  1962  70.76000    53292000   12477.177070       GBR      826
+1599            United Kingdom    Europe  1967  71.36000    54959000   14142.850890       GBR      826
+1600            United Kingdom    Europe  1972  72.01000    56079000   15895.116410       GBR      826
+1601            United Kingdom    Europe  1977  72.76000    56179000   17428.748460       GBR      826
+1602            United Kingdom    Europe  1982  74.04000    56339704   18232.424520       GBR      826
+1603            United Kingdom    Europe  1987  75.00700    56981620   21664.787670       GBR      826
+1604            United Kingdom    Europe  1992  76.42000    57866349   22705.092540       GBR      826
+1605            United Kingdom    Europe  1997  77.21800    58808266   26074.531360       GBR      826
+1606            United Kingdom    Europe  2002  78.47100    59912431   29478.999190       GBR      826
+1607            United Kingdom    Europe  2007  79.42500    60776238   33203.261280       GBR      826
+1608             United States  Americas  1952  68.44000   157553000   13990.482080       USA      840
+1609             United States  Americas  1957  69.49000   171984000   14847.127120       USA      840
+1610             United States  Americas  1962  70.21000   186538000   16173.145860       USA      840
+1611             United States  Americas  1967  70.76000   198712000   19530.365570       USA      840
+1612             United States  Americas  1972  71.34000   209896000   21806.035940       USA      840
+1613             United States  Americas  1977  73.38000   220239000   24072.632130       USA      840
+1614             United States  Americas  1982  74.65000   232187835   25009.559140       USA      840
+1615             United States  Americas  1987  75.02000   242803533   29884.350410       USA      840
+1616             United States  Americas  1992  76.09000   256894189   32003.932240       USA      840
+1617             United States  Americas  1997  76.81000   272911760   35767.433030       USA      840
+1618             United States  Americas  2002  77.31000   287675526   39097.099550       USA      840
+1619             United States  Americas  2007  78.24200   301139947   42951.653090       USA      840
+1620                   Uruguay  Americas  1952  66.07100     2252965    5716.766744       URY      858
+1621                   Uruguay  Americas  1957  67.04400     2424959    6150.772969       URY      858
+1622                   Uruguay  Americas  1962  68.25300     2598466    5603.357717       URY      858
+1623                   Uruguay  Americas  1967  68.46800     2748579    5444.619620       URY      858
+1624                   Uruguay  Americas  1972  68.67300     2829526    5703.408898       URY      858
+1625                   Uruguay  Americas  1977  69.48100     2873520    6504.339663       URY      858
+1626                   Uruguay  Americas  1982  70.80500     2953997    6920.223051       URY      858
+1627                   Uruguay  Americas  1987  71.91800     3045153    7452.398969       URY      858
+1628                   Uruguay  Americas  1992  72.75200     3149262    8137.004775       URY      858
+1629                   Uruguay  Americas  1997  74.22300     3262838    9230.240708       URY      858
+1630                   Uruguay  Americas  2002  75.30700     3363085    7727.002004       URY      858
+1631                   Uruguay  Americas  2007  76.38400     3447496   10611.462990       URY      858
+1632                 Venezuela  Americas  1952  55.08800     5439568    7689.799761       VEN      862
+1633                 Venezuela  Americas  1957  57.90700     6702668    9802.466526       VEN      862
+1634                 Venezuela  Americas  1962  60.77000     8143375    8422.974165       VEN      862
+1635                 Venezuela  Americas  1967  63.47900     9709552    9541.474188       VEN      862
+1636                 Venezuela  Americas  1972  65.71200    11515649   10505.259660       VEN      862
+1637                 Venezuela  Americas  1977  67.45600    13503563   13143.950950       VEN      862
+1638                 Venezuela  Americas  1982  68.55700    15620766   11152.410110       VEN      862
+1639                 Venezuela  Americas  1987  70.19000    17910182    9883.584648       VEN      862
+1640                 Venezuela  Americas  1992  71.15000    20265563   10733.926310       VEN      862
+1641                 Venezuela  Americas  1997  72.14600    22374398   10165.495180       VEN      862
+1642                 Venezuela  Americas  2002  72.76600    24287670    8605.047831       VEN      862
+1643                 Venezuela  Americas  2007  73.74700    26084662   11415.805690       VEN      862
+1644                   Vietnam      Asia  1952  40.41200    26246839     605.066492       VNM      704
+1645                   Vietnam      Asia  1957  42.88700    28998543     676.285448       VNM      704
+1646                   Vietnam      Asia  1962  45.36300    33796140     772.049160       VNM      704
+1647                   Vietnam      Asia  1967  47.83800    39463910     637.123289       VNM      704
+1648                   Vietnam      Asia  1972  50.25400    44655014     699.501644       VNM      704
+1649                   Vietnam      Asia  1977  55.76400    50533506     713.537120       VNM      704
+1650                   Vietnam      Asia  1982  58.81600    56142181     707.235786       VNM      704
+1651                   Vietnam      Asia  1987  62.82000    62826491     820.799445       VNM      704
+1652                   Vietnam      Asia  1992  67.66200    69940728     989.023149       VNM      704
+1653                   Vietnam      Asia  1997  70.67200    76048996    1385.896769       VNM      704
+1654                   Vietnam      Asia  2002  73.01700    80908147    1764.456677       VNM      704
+1655                   Vietnam      Asia  2007  74.24900    85262356    2441.576404       VNM      704
+1656        West Bank and Gaza      Asia  1952  43.16000     1030585    1515.592329       PSE      275
+1657        West Bank and Gaza      Asia  1957  45.67100     1070439    1827.067742       PSE      275
+1658        West Bank and Gaza      Asia  1962  48.12700     1133134    2198.956312       PSE      275
+1659        West Bank and Gaza      Asia  1967  51.63100     1142636    2649.715007       PSE      275
+1660        West Bank and Gaza      Asia  1972  56.53200     1089572    3133.409277       PSE      275
+1661        West Bank and Gaza      Asia  1977  60.76500     1261091    3682.831494       PSE      275
+1662        West Bank and Gaza      Asia  1982  64.40600     1425876    4336.032082       PSE      275
+1663        West Bank and Gaza      Asia  1987  67.04600     1691210    5107.197384       PSE      275
+1664        West Bank and Gaza      Asia  1992  69.71800     2104779    6017.654756       PSE      275
+1665        West Bank and Gaza      Asia  1997  71.09600     2826046    7110.667619       PSE      275
+1666        West Bank and Gaza      Asia  2002  72.37000     3389578    4515.487575       PSE      275
+1667        West Bank and Gaza      Asia  2007  73.42200     4018332    3025.349798       PSE      275
+1668               Yemen, Rep.      Asia  1952  32.54800     4963829     781.717576       YEM      887
+1669               Yemen, Rep.      Asia  1957  33.97000     5498090     804.830455       YEM      887
+1670               Yemen, Rep.      Asia  1962  35.18000     6120081     825.623201       YEM      887
+1671               Yemen, Rep.      Asia  1967  36.98400     6740785     862.442146       YEM      887
+1672               Yemen, Rep.      Asia  1972  39.84800     7407075    1265.047031       YEM      887
+1673               Yemen, Rep.      Asia  1977  44.17500     8403990    1829.765177       YEM      887
+1674               Yemen, Rep.      Asia  1982  49.11300     9657618    1977.557010       YEM      887
+1675               Yemen, Rep.      Asia  1987  52.92200    11219340    1971.741538       YEM      887
+1676               Yemen, Rep.      Asia  1992  55.59900    13367997    1879.496673       YEM      887
+1677               Yemen, Rep.      Asia  1997  58.02000    15826497    2117.484526       YEM      887
+1678               Yemen, Rep.      Asia  2002  60.30800    18701257    2234.820827       YEM      887
+1679               Yemen, Rep.      Asia  2007  62.69800    22211743    2280.769906       YEM      887
+1680                    Zambia    Africa  1952  42.03800     2672000    1147.388831       ZMB      894
+1681                    Zambia    Africa  1957  44.07700     3016000    1311.956766       ZMB      894
+1682                    Zambia    Africa  1962  46.02300     3421000    1452.725766       ZMB      894
+1683                    Zambia    Africa  1967  47.76800     3900000    1777.077318       ZMB      894
+1684                    Zambia    Africa  1972  50.10700     4506497    1773.498265       ZMB      894
+1685                    Zambia    Africa  1977  51.38600     5216550    1588.688299       ZMB      894
+1686                    Zambia    Africa  1982  51.82100     6100407    1408.678565       ZMB      894
+1687                    Zambia    Africa  1987  50.82100     7272406    1213.315116       ZMB      894
+1688                    Zambia    Africa  1992  46.10000     8381163    1210.884633       ZMB      894
+1689                    Zambia    Africa  1997  40.23800     9417789    1071.353818       ZMB      894
+1690                    Zambia    Africa  2002  39.19300    10595811    1071.613938       ZMB      894
+1691                    Zambia    Africa  2007  42.38400    11746035    1271.211593       ZMB      894
+1692                  Zimbabwe    Africa  1952  48.45100     3080907     406.884115       ZWE      716
+1693                  Zimbabwe    Africa  1957  50.46900     3646340     518.764268       ZWE      716
+1694                  Zimbabwe    Africa  1962  52.35800     4277736     527.272182       ZWE      716
+1695                  Zimbabwe    Africa  1967  53.99500     4995432     569.795071       ZWE      716
+1696                  Zimbabwe    Africa  1972  55.63500     5861135     799.362176       ZWE      716
+1697                  Zimbabwe    Africa  1977  57.67400     6642107     685.587682       ZWE      716
+1698                  Zimbabwe    Africa  1982  60.36300     7636524     788.855041       ZWE      716
+1699                  Zimbabwe    Africa  1987  62.35100     9216418     706.157306       ZWE      716
+1700                  Zimbabwe    Africa  1992  60.37700    10704340     693.420786       ZWE      716
+1701                  Zimbabwe    Africa  1997  46.80900    11404948     792.449960       ZWE      716
+1702                  Zimbabwe    Africa  2002  39.98900    11926563     672.038623       ZWE      716
+1703                  Zimbabwe    Africa  2007  43.48700    12311143     469.709298       ZWE      716

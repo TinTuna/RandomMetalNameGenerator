@@ -2,16 +2,9 @@ import lyricsgenius
 import json
 import getGoogleSheet
 import nanoid
+import useEnvVars
 
-env_vars = {}
-with open('.env') as f:
-    for line in f:
-        if line.startswith('#') or not line.strip():
-            continue
-        key, value = line.strip().split('=', 1)
-        env_vars[key] = value
-
-client_access_token = env_vars['genius_access_token']
+client_access_token = useEnvVars.env_vars['GENIUS_ACCESS_TOKEN']
 
 LyricsGenius = lyricsgenius.Genius(client_access_token)
 
@@ -67,11 +60,11 @@ for band in band_data:
     data[band[0]]['albums'] = {}
     data[band[0]]['albums'][band[1]] = {}
     data[band[0]]['albums'][band[1]]['id'] = nanoid.generate(size=10)
-    data[band[0]]['albums'][band[1]]['date'] = band[2]
-    data[band[0]]['albums'][band[1]]['avgScore'] = band[6]
-    data[band[0]]['albums'][band[1]]['TinTuna#2453'] = band[5]
-    data[band[0]]['albums'][band[1]]['Tinngles#8236'] = band[4]
-    data[band[0]]['albums'][band[1]]['Izual#1552'] = band[3]
+    data[band[0]]['albums'][band[1]]['date'] = band[3]
+    data[band[0]]['albums'][band[1]]['avgScore'] = band[7]
+    data[band[0]]['albums'][band[1]]['TinTuna#2453'] = band[6]
+    data[band[0]]['albums'][band[1]]['Tinngles#8236'] = band[5]
+    data[band[0]]['albums'][band[1]]['Izual#1552'] = band[4]
     data[band[0]]['albums'][band[1]]['songs'] = {}
 
 # remove duplicate keys

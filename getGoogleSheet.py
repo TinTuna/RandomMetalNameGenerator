@@ -25,6 +25,10 @@ def main(YEAR: str):
     # created automatically when the authorization flow completes for the first
     # time.
     if os.path.exists('token.json'):
+        # check if token is expiry and refresh if needed
+        # open token.json and check expiry
+        # TODO
+
         creds = Credentials.from_authorized_user_file('token.json', SCOPES)
     # If there are no (valid) credentials available, let the user log in.
     if not creds or not creds.valid:
@@ -54,7 +58,16 @@ def main(YEAR: str):
         arr = []
         for row in values:
             if row[0] != '':
-                arr.append([row[0].strip(),row[1].strip(),row[3].strip()+' '+YEAR, row[4], row[5], row[6], row[7]])
+                arr.append([
+                        row[0].strip(),
+                        row[1].strip(),
+                        row[2].strip(),
+                        row[3].strip()+' '+YEAR,
+                        row[4],
+                        row[5],
+                        row[6],
+                        row[7]
+                    ])
         return arr
     except HttpError as err:
         print(err)

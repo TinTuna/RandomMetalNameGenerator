@@ -3,19 +3,9 @@ import re
 import lyricsgenius
 import requests
 from pathlib import Path
+import useEnvVars
 
-
-env_vars = {}
-with open('.env') as f:
-    for line in f:
-        if line.startswith('#') or not line.strip():
-            continue
-        key, value = line.strip().split('=', 1)
-        env_vars[key] = value
-
-client_access_token = env_vars['genius_access_token']
-
-
+client_access_token = useEnvVars.env_vars['GENIUS_ACCESS_TOKEN']
 
 async def getLyrics(artist_name, album_name, song_name, song_id):
     LyricsGenius = lyricsgenius.Genius(client_access_token)
